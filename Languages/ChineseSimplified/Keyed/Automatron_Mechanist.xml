@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_MechRelayName>受损中继站</RF_MechRelayName>
+  <RF_MechTargets>中继站与终端</RF_MechTargets>
+  <RF_MechRecordReward>雷达信标载波资料</RF_MechRecordReward>
+  <RF_MechRecordInfo>中继站的信标载波与识别码。Ada需要这些记录，才能继续追踪机械大师的机器人网络。</RF_MechRecordInfo>
+  <RF_MechChapterComplete>调查完成。Ada：“频率对上了，就是袭击商队的那些机器人。但只有识别码还不够，我需要找到维护网络的同步记录。”</RF_MechChapterComplete>
+  <RF_MechOfferExpired>机械军团任务未接受，已失效。</RF_MechOfferExpired>
+  <RF_MechOfferEnded>机械军团任务未接受，已失效。Ada会在找到新的线索后再次联系你。</RF_MechOfferEnded>
+  <RF_MechEndedFailed>未能取得中继站记录。Ada会继续寻找线索。</RF_MechEndedFailed>
+  <RF_MechAtRelay>清除中继站的守卫，读取终端。</RF_MechAtRelay>
+  <RF_MechArrivalRemaining>前往中继站，带上一名能够研究的殖民者。</RF_MechArrivalRemaining>
+  <RF_MechArrivalLimit>前往中继站，带上一名能够研究的殖民者。</RF_MechArrivalLimit>
+  <RF_MechReservationLost>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_MechReservationLost>
+  <RF_MechSiteFailure>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_MechSiteFailure>
+  <RF_MechArrivalExpired>你未能及时抵达。中继站的信号已经消失。</RF_MechArrivalExpired>
+  <RF_MechTerminalLost>记录下载前中继终端已遗失或毁坏，本次调查失败。</RF_MechTerminalLost>
+  <RF_MechRelayAbandoned>下载记录前已撤离并放弃中继站，本次调查失败。</RF_MechRelayAbandoned>
+  <RF_MechTerminalClosed>调查已结束，或记录已经下载。</RF_MechTerminalClosed>
+  <RF_MechNeedResearch>需要能够研究的殖民者。</RF_MechNeedResearch>
+  <RF_MechCannotOperate>操作者无法工作，请检查其状态并取消征召。</RF_MechCannotOperate>
+  <RF_MechUnreachable>无法抵达终端。</RF_MechUnreachable>
+  <RF_MechThreatsRemain>请先清除该地区的敌对威胁。</RF_MechThreatsRemain>
+  <RF_MechDownload>下载信标载波资料</RF_MechDownload>
+  <RF_MechTerminalInspect>需要能够研究的殖民者。</RF_MechTerminalInspect>
+</LanguageData>

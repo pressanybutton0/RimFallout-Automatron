@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_FinaleMaster.label>设施主控</RimFallout_FinaleMaster.label>
+  <RimFallout_FinaleMaster.description>控制整座设施与机器人通讯网络的主控终端。取得权限后，可以在这里停止机械大师的指令广播。</RimFallout_FinaleMaster.description>
+</LanguageData>

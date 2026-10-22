@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_DistortedDistress.questNameRules.rulesStrings>
+    <li>questName-&gt;机械军团：机械威胁</li>
+  </RimFallout_DistortedDistress.questNameRules.rulesStrings>
+  <RimFallout_DistortedDistress.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;“它们说是来保护我们的，随后就开了火。”一个自称Ada的机器人向你发来求援。她同行的商队遭到袭击，凶手却始终以“机械大师”的名义广播和平宣言。\n\nAda追踪到附近的一处通讯中继站。四台敌对战斗机器人守卫着终端，里面可能保存袭击者的信标识别码。她请求你夺取记录，查明这些机器人听命于谁。\n\n清除站内威胁后，让一名未征召、能研究且具有操作能力的殖民者读取终端。资料会直接传给Ada。请保全终端，毁坏它或未完成下载就撤离都会使本次调查失败。\n\n取得记录后，Ada会继续追踪并另行联系。</li>
+  </RimFallout_DistortedDistress.questDescriptionRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_BuddyTargets>救援目标</RF_BuddyTargets>
+  <RF_BuddyRewardLabel>饮料哥</RF_BuddyRewardLabel>
+  <RF_BuddyRewardInfo>一台能供应饮料的服务机器人。将饮料哥从补给站救出，带回你的殖民地。</RF_BuddyRewardInfo>
+  <RF_BuddyLost>饮料哥未能随远行队回到殖民地，救援失败。</RF_BuddyLost>
+  <RF_BuddyEndedFailed>你没能将饮料哥带回殖民地，救援失败。</RF_BuddyEndedFailed>
+  <RF_BuddyOfferExpired>补给站的广播已经中断，你错过了这次救援机会。</RF_BuddyOfferExpired>
+  <RF_BuddyEnded>这次救援已经结束。</RF_BuddyEnded>
+  <RF_BuddyDepotAbandoned>运行队离开了补给站，饮料哥仍被封存在检修舱内。救援失败。</RF_BuddyDepotAbandoned>
+  <RF_BuddyDepotName>废弃补给站</RF_BuddyDepotName>
+  <RF_BuddyReturn>将饮料哥带回你的殖民地。</RF_BuddyReturn>
+  <RF_BuddyAtDepot>远行队已抵达补给站。消灭守卫后，让机械师打开检修舱，救出饮料哥。</RF_BuddyAtDepot>
+  <RF_BuddyArrivalLimit>前往补给站，请派遣机械师并预留1点带宽。</RF_BuddyArrivalLimit>
+  <RF_BuddyArrivalRemaining>前往补给站，请派遣机械师并预留1点带宽。</RF_BuddyArrivalRemaining>
+  <RF_BuddyReservationLost>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_BuddyReservationLost>
+  <RF_BuddySiteFailure>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_BuddySiteFailure>
+  <RF_BuddyDied>饮料哥未能平安回到殖民地，救援失败。</RF_BuddyDied>
+  <RF_BuddyRescueSuccess>饮料哥已抵达家园，任务完成。</RF_BuddyRescueSuccess>
+  <RF_BuddyGenerationFailure>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_BuddyGenerationFailure>
+  <RF_BuddySignalExpired>远行队未能及时抵达，补给站的信号已经中断。</RF_BuddySignalExpired>
+  <RF_BuddyQuestClosed>这项救援任务已结束。</RF_BuddyQuestClosed>
+  <RF_BuddyNeedMechanitor>需要清醒且未倒地的机械师。</RF_BuddyNeedMechanitor>
+  <RF_BuddyAlreadyConnected>饮料哥已连接。将他带回殖民地。</RF_BuddyAlreadyConnected>
+  <RF_BuddyNeedBandwidth>需要1点可用带宽。</RF_BuddyNeedBandwidth>
+  <RF_BuddyUnreachable>没有可用路径。</RF_BuddyUnreachable>
+  <RF_BuddyGuardAlive>请先消灭补给站的守卫。</RF_BuddyGuardAlive>
+  <RF_BuddyUnavailable>饮料哥必须位于补给站内，且存活、未倒地。</RF_BuddyUnavailable>
+  <RF_BuddyReconnect>重新连接已解封的饮料哥</RF_BuddyReconnect>
+  <RF_BuddyRelease>解封饮料哥</RF_BuddyRelease>
+  <RF_BuddyPodInspect>饮料哥仍在舱内。消灭守卫后，可由机械师打开检修舱。</RF_BuddyPodInspect>
+  <RF_BuddyPodDestroyed>饮料哥获救前，检修舱已被摧毁。救援失败。</RF_BuddyPodDestroyed>
+  <RF_BuddyConnectFailed>未能连接饮料哥。请检查机械师的状态和可用带宽。若问题持续，请查看游戏日志并向模组作者反馈。</RF_BuddyConnectFailed>
+  <RF_BuddyReleased>饮料哥已经苏醒并连接。将他编入远行队，带回你的殖民地。</RF_BuddyReleased>
+  <RF_BuddyPersonalName>饮料哥</RF_BuddyPersonalName>
+</LanguageData>

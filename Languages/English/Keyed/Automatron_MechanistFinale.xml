@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_FinalFacility>Mechanist facility</RF_FinalFacility>
+  <RF_FinalSuccess>The Mechanist network is shut down. Its robots have stopped attacking, and the Automatron faction will no longer raid your colony.</RF_FinalSuccess>
+  <RF_FinalOfferEnded>This Automatron quest was not accepted and has expired.</RF_FinalOfferEnded>
+  <RF_FinalArrivalLimit>Travel to the Mechanist's facility. After entering, abandoning the investigation or losing a critical objective will end it permanently.</RF_FinalArrivalLimit>
+  <RF_FinalArrivalRemaining>Travel to the Mechanist's facility. After entering, abandoning the investigation or losing a critical objective will end it permanently.</RF_FinalArrivalRemaining>
+  <RF_FinalStages>Breach the patrols and turrets, then speak with the Mechanist.</RF_FinalStages>
+  <RF_FinalAuthority>Authorization obtained. Operate the main console to shut down the network.</RF_FinalAuthority>
+  <RF_FinalReservation>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_FinalReservation>
+  <RF_FinalSiteFailure>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_FinalSiteFailure>
+  <RF_FinalPermanentFailure>The investigation cannot continue. Ada cannot arrange another expedition to this facility.</RF_FinalPermanentFailure>
+  <RF_FinalAbandoned>You abandoned the expedition. If you had not yet entered the facility, Ada will keep looking for another opportunity.</RF_FinalAbandoned>
+  <RF_FinalExpired>You did not arrive at the facility in time. Ada will keep looking for another opportunity.</RF_FinalExpired>
+  <RF_FinalMasterLost>The main console has been lost or destroyed. The Mechanist network cannot be shut down.</RF_FinalMasterLost>
+  <RF_FinalIdentityLost>Isabel has disappeared. You can no longer obtain her authorization.</RF_FinalIdentityLost>
+  <RF_FinalLocalThreat>A nearby enemy threatens this terminal.</RF_FinalLocalThreat>
+  <RF_FinalDialogue>Isabel listens to the testimony, then falls silent. "Those numbers... I thought those were people we had saved. I told them to protect civilians. How could..." She looks at the blinking console.\n\nShe seems shaken. A persuasive colonist might convince her to join you and help make amends.</RF_FinalDialogue>
+  <RF_FinalPeace>Persuade Isabel to join (requires Social 10)</RF_FinalPeace>
+  <RF_FinalJoinOffer>Isabel would like to join your colony. She is willing to hand over control and help stop the robots' attacks.\n\nWill you accept her? You may use the console even if you decline her offer to join.</RF_FinalJoinOffer>
+  <RF_FinalViewIsabel>View Isabel's character information</RF_FinalViewIsabel>
+  <RF_FinalAcceptIsabel>Accept Isabel into the colony</RF_FinalAcceptIsabel>
+  <RF_FinalDeclineIsabel>Not now</RF_FinalDeclineIsabel>
+  <RF_FinalLater>End the conversation</RF_FinalLater>
+  <RF_FinalHandover>Isabel Cruz has joined the colony and handed over control. You can now shut down the Mechanist network.</RF_FinalHandover>
+  <RF_FinalClosed>This terminal can no longer be used.</RF_FinalClosed>
+  <RF_FinalNeedTalk>Requires Isabel's authorization, or taking control after her death.</RF_FinalNeedTalk>
+  <RF_FinalControl>Shut down the Mechanist network</RF_FinalControl>
+  <RF_FinalTerminalInfo>Requires a colonist capable of research.</RF_FinalTerminalInfo>
+  <RF_FinalTalk>Speak with Isabel Cruz</RF_FinalTalk>
+  <RF_FinalTalkBlocked>Have a mobile, undrafted colonist approach Isabel while she is awake and not a prisoner.</RF_FinalTalkBlocked>
+  <RF_FinalSocialLow>Requires a colonist with Social 10 or higher who can speak.</RF_FinalSocialLow>
+  <RF_FinalRejectIsabel>Decline and let Isabel leave</RF_FinalRejectIsabel>
+  <RF_FinalRejected>Isabel handed over control and left the colony behind.</RF_FinalRejected>
+</LanguageData>

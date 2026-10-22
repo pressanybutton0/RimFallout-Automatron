@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>RimFallout_ProtectronsGaze</defName>
+    <smeltable>false</smeltable>
+    <label>Protectron's Gaze</label>
+    <description>The Mechanist's personal laser pistol, capable of rapid, accurate fire. Its control module also helps a mechanitor command more mechs.\n\nWhile equipped, mech bandwidth: +3.</description>
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <relicChance>0</relicChance>
+    <recipeMaker IsNull="True" />
+    <tradeTags Inherit="False" />
+    <thingSetMakerTags Inherit="False" />
+    <graphicData>
+      <texPath>Things/Item/Equipment/Automatron/ProtectronsGaze</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1100</MarketValue>
+      <Mass>1.5</Mass>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.69</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+    </statBases>
+    <weaponTags>
+      <li>RimFallout_IsabelSidearm</li>
+    </weaponTags>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <tools Inherit="False">
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>RimFallout_ProtectronsGazeBolt</defaultProjectile>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>23.9</range>
+        <warmupTime>0.7</warmupTime>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>0.7</muzzleFlashScale>
+      </li>
+    </verbs>
+    <equippedStatOffsets>
+      <MechBandwidth>3</MechBandwidth>
+    </equippedStatOffsets>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_GazeBandwidth" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>RimFallout_TeslaRifle</defName>
+    <smeltable>false</smeltable>
+    <label>Tesla rifle</label>
+    <description>An energy rifle that fires high-voltage arcs. Electricity spreads from the target to nearby enemies, exposing clustered opponents to the same discharge.</description>
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <relicChance>0</relicChance>
+    <recipeMaker IsNull="True" />
+    <tradeTags Inherit="False" />
+    <thingSetMakerTags Inherit="False" />
+    <graphicData>
+      <texPath>Things/Item/Equipment/Automatron/TeslaRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1400</MarketValue>
+      <Mass>3.5</Mass>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+    </statBases>
+    <weaponTags Inherit="False" />
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <tools Inherit="False">
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <verbs>
+      <li>
+        <verbClass>RimFallout.Automatron.Verb_TeslaChain</verbClass>
+        <defaultProjectile>RimFallout_TeslaBolt</defaultProjectile>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>24.9</range>
+        <warmupTime>1.5</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>1</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RimFallout_AssaultronBlade</defName>
+    <smeltable>false</smeltable>
+    <label>Assaultron blade</label>
+    <description>A melee blade fashioned from Assaultron components. Its heavy cutting edge and electrical discharge can tear through armor and disable mechanical targets.</description>
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <relicChance>0</relicChance>
+    <recipeMaker IsNull="True" />
+    <tradeTags Inherit="False" />
+    <thingSetMakerTags Inherit="False" />
+    <graphicData>
+      <texPath>Things/Item/Equipment/Automatron/AssaultronBlade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <weaponTags Inherit="False" />
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools Inherit="False">
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.46</armorPenetration>
+        <extraMeleeDamages>
+          <li>
+            <def>EMP</def>
+            <amount>9</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>RimFallout_ProtectronsGazeBolt</defName>
+    <label>Protectron's Gaze pulse</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(1,0.25,0.2)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetrationBase>0.12</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

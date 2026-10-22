@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_EnemyAbilitiesInfo>允许敌方使用以下能力。默认关闭，不影响玩家、盟友和中立单位。</RF_EnemyAbilitiesInfo>
+  <RF_EnemyMesmetron>允许敌方机器脑使用迷魂脉冲能力</RF_EnemyMesmetron>
+  <RF_EnemyMesmetronTip>允许敌方机器脑使用迷魂脉冲能力。</RF_EnemyMesmetronTip>
+  <RF_EnemyBackCluster>允许敌方哨兵使用背部集束弹能力</RF_EnemyBackCluster>
+  <RF_EnemyBackClusterTip>允许敌方哨兵机器人发射背部集束弹能力。</RF_EnemyBackClusterTip>
+  <RF_EnemyAbilitiesExistingEffects>设置适用于所有存档。关闭后，已经发射的炮弹和已经生效的效果仍会保留。</RF_EnemyAbilitiesExistingEffects>
+  <RF_EnemyAbilityDisabled>敌方使用此能力的选项已关闭。</RF_EnemyAbilityDisabled>
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_MechanistRobots.label>机械军团</RimFallout_MechanistRobots.label>
+  <RimFallout_MechanistRobots.fixedName>机械军团</RimFallout_MechanistRobots.fixedName>
+  <RimFallout_MechanistRobots.pawnSingular>机械族</RimFallout_MechanistRobots.pawnSingular>
+  <RimFallout_MechanistRobots.pawnsPlural>机械族</RimFallout_MechanistRobots.pawnsPlural>
+  <RimFallout_MechanistRobots.description>由机械大师指挥的机器人军团。它们四处执行“保护平民”的任务，却将所到之处变成战场。</RimFallout_MechanistRobots.description>
+  <RimFallout_MechanistIsabel.label>Isabel Cruz</RimFallout_MechanistIsabel.label>
+  <RimFallout_MechanistIsabel.fixedName>Isabel Cruz</RimFallout_MechanistIsabel.fixedName>
+  <RimFallout_MechanistIsabel.description>自称机械大师的机器人工程师Isabel Cruz。</RimFallout_MechanistIsabel.description>
+  <RimFallout_MechanistRobotsStopped.label>机械军团</RimFallout_MechanistRobotsStopped.label>
+  <RimFallout_MechanistRobotsStopped.fixedName>机械军团</RimFallout_MechanistRobotsStopped.fixedName>
+  <RimFallout_MechanistRobotsStopped.pawnSingular>机械族</RimFallout_MechanistRobotsStopped.pawnSingular>
+  <RimFallout_MechanistRobotsStopped.pawnsPlural>机械族</RimFallout_MechanistRobotsStopped.pawnsPlural>
+  <RimFallout_MechanistRobotsStopped.description>机械大师网络已关闭。留存的机器人不再执行袭击指令。</RimFallout_MechanistRobotsStopped.description>
+</LanguageData>

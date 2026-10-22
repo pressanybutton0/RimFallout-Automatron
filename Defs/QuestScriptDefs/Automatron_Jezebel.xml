@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <QuestScriptDef>
+    <defName>RimFallout_Headhunting</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootEarliestDay>0</rootEarliestDay>
+    <expireDaysRange>-1</expireDaysRange>
+    <autoAccept>false</autoAccept>
+    <affectedByPoints>false</affectedByPoints>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Automatron: Headhunting</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-&gt;"If you can understand this transmission, you are already more intelligent than the scavengers here." The signal Ada has been tracking comes from a head that can still think. A robot calling herself Jezebel has fallen into the hands of the Rust Devils, who keep her as a trophy inside their camp.\n\nBreak into the camp and bring Jezebel's head home. She promises information on reaching the Mechanist's facility, provided you first rebuild her body. Speak with her afterwards so Ada can continue the search. Besides, what harm could another Robobrain do?\n\nKeep Jezebel safe until you have her information; losing her will end this lead.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+          <canSelectSpace>false</canSelectSpace>
+          <selectLandmarkChance>0</selectLandmarkChance>
+        </li>
+        <li Class="RimFallout.Automatron.QuestNode_Jezebel" />
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+          <parms>
+            <points>$rewardPoints</points>
+          </parms>
+        </li>
+        <li Class="QuestNode_GiveRewards">
+          <inSignal>MechanistChapterReward</inSignal>
+          <addCampLootReward>true</addCampLootReward>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <SitePartDef ParentName="Outpost">
+    <defName>RimFallout_JezebelDepot</defName>
+    <label>robot salvage outpost</label>
+    <description>A robot salvage outpost occupied by raiders. Jezebel's head is kept inside as a trophy.</description>
+    <workerClass>RimFallout.Automatron.SitePartWorker_Jezebel</workerClass>
+    <tags Inherit="False" />
+    <siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Outpost</expandingIconTexture>
+    <approachOrderString>Attack {0}</approachOrderString>
+    <approachingReportString>Attacking {0}.</approachingReportString>
+    <arrivedLetter>There is an enemy outpost in this area.</arrivedLetter>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>true</considerEnteringAsAttack>
+  </SitePartDef>
+  <WorldObjectDef ParentName="Site">
+    <defName>RimFallout_JezebelSite</defName>
+    <label>robot salvage outpost</label>
+    <worldObjectClass>RimFallout.Automatron.Site_Jezebel</worldObjectClass>
+    <mapGenerator>RimFallout_JezebelMap</mapGenerator>
+  </WorldObjectDef>
+  <ThingDef ParentName="SubcoreBase">
+    <defName>RimFallout_JezebelHead</defName>
+    <label>Jezebel's head</label>
+    <description>Jezebel's head, still capable of thought and speech. She knows the Mechanist's secrets, but insists on receiving a new body first.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <stackLimit>1</stackLimit>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>Things/Item/Resource/SubcoreBasic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>2</Mass>
+      <MarketValue>0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_JezebelInteraction" />
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>RimFallout_InteractJezebel</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_InteractJezebel</driverClass>
+    <reportString>Speaking with Jezebel.</reportString>
+  </JobDef>
+</Defs>

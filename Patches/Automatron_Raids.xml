@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/IncidentDef[defName='RaidEnemy']/workerClass[text()='IncidentWorker_RaidEnemy' or text()='RimWorld.IncidentWorker_RaidEnemy']</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/IncidentDef[defName='RaidEnemy']/workerClass</xpath>
+      <value>
+        <workerClass>RimFallout.Automatron.IncidentWorker_MechanistRaidGate</workerClass>
+      </value>
+    </match>
+  </Operation>
+</Patch>

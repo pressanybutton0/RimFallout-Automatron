@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_BuddyServiceUnsupported>Drinkin' Buddy's {0} service integration encountered a problem: {1}. Please check the game log and report this to the mod author.</RF_BuddyServiceUnsupported>
+  <RF_BuddyServiceUnavailable>Drinkin' Buddy must be alive, player-controlled and on this map.</RF_BuddyServiceUnavailable>
+  <RF_BuddyServiceUnassigned>Drinkin' Buddy's service integration encountered a problem; {0} shift assignments were removed. Please check the game log and report this to the mod author.</RF_BuddyServiceUnassigned>
+</LanguageData>

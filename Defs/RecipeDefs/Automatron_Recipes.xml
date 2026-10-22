@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RecipeDef ParentName="LightMechanoidRecipe">
+    <defName>RimFallout_GestateRobobrain</defName>
+    <label>gestate Robobrain</label>
+    <description>Gestate a Robobrain equipped with a Tesla emitter.</description>
+    <researchPrerequisite>RimFallout_AutomatronRobobrainEngineering</researchPrerequisite>
+    <gestationCycles>2</gestationCycles>
+    <displayPriority>110</displayPriority>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>160</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <RimFallout_Robobrain>1</RimFallout_Robobrain>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>RimFallout_Robobrain</ThingDef>
+    </descriptionHyperlinks>
+    <formingTicks>120000</formingTicks>
+    <workAmount>1800</workAmount>
+    <jobString>Gestating mechanoid.</jobString>
+  </RecipeDef>
+  <RecipeDef ParentName="LightMechanoidRecipe">
+    <defName>RimFallout_GestateSentryBot</defName>
+    <label>gestate Sentry bot</label>
+    <description>Gestate a Sentry bot equipped with a minigun.</description>
+    <researchPrerequisite>RimFallout_AutomatronSentryEngineering</researchPrerequisite>
+    <gestationCycles>3</gestationCycles>
+    <displayPriority>111</displayPriority>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>240</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <RimFallout_SentryBot>1</RimFallout_SentryBot>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>RimFallout_SentryBot</ThingDef>
+    </descriptionHyperlinks>
+    <formingTicks>120000</formingTicks>
+    <workAmount>1800</workAmount>
+    <jobString>Gestating mechanoid.</jobString>
+  </RecipeDef>
+</Defs>

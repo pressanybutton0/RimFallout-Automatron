@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <BodyDef>
+    <defName>RimFallout_RobobrainBody</defName>
+    <label>Robobrain chassis</label>
+    <corePart>
+      <def>MechanicalThorax</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>MechanicalHead</def>
+          <coverage>0.12</coverage>
+          <customLabel>brain dome</customLabel>
+          <height>Top</height>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>SightSensor</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>HearingSensor</def>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>ArtificialBrain</def>
+              <coverage>0.1</coverage>
+              <customLabel>preserved brain</customLabel>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalArm</def>
+          <coverage>0.12</coverage>
+          <customLabel>left arm</customLabel>
+          <parts>
+            <li>
+              <def>MechanicalHand</def>
+              <coverage>0.2</coverage>
+              <customLabel>left hand</customLabel>
+            </li>
+          </parts>
+          <groups>
+            <li>RimFallout_AutomatronGunArms</li>
+          </groups>
+        </li>
+        <li>
+          <def>MechanicalArm</def>
+          <coverage>0.12</coverage>
+          <customLabel>right arm</customLabel>
+          <parts>
+            <li>
+              <def>MechanicalHand</def>
+              <coverage>0.2</coverage>
+              <customLabel>right hand</customLabel>
+            </li>
+          </parts>
+          <groups>
+            <li>RimFallout_AutomatronGunArms</li>
+          </groups>
+        </li>
+        <li>
+          <def>RimFallout_Track</def>
+          <coverage>0.2</coverage>
+          <customLabel>left track</customLabel>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>RimFallout_Track</def>
+          <coverage>0.2</coverage>
+          <customLabel>right track</customLabel>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Reactor</def>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>RimFallout_SentryBotBody</defName>
+    <label>Sentry bot chassis</label>
+    <corePart>
+      <def>MechanicalThorax</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>MechanicalHead</def>
+          <coverage>0.12</coverage>
+          <height>Top</height>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>SightSensor</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>HearingSensor</def>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>ArtificialBrain</def>
+              <coverage>0.1</coverage>
+              <customLabel>cognitive core</customLabel>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalArm</def>
+          <coverage>0.12</coverage>
+          <customLabel>left arm</customLabel>
+          <parts>
+            <li>
+              <def>MechanicalHand</def>
+              <coverage>0.2</coverage>
+              <customLabel>left hand</customLabel>
+            </li>
+          </parts>
+          <groups>
+            <li>RimFallout_AutomatronGunArms</li>
+          </groups>
+        </li>
+        <li>
+          <def>MechanicalArm</def>
+          <coverage>0.12</coverage>
+          <customLabel>right arm</customLabel>
+          <parts>
+            <li>
+              <def>MechanicalHand</def>
+              <coverage>0.2</coverage>
+              <customLabel>right hand</customLabel>
+            </li>
+          </parts>
+          <groups>
+            <li>RimFallout_AutomatronGunArms</li>
+          </groups>
+        </li>
+        <li>
+          <def>RimFallout_WheelSupport</def>
+          <coverage>0.14</coverage>
+          <customLabel>left wheel support</customLabel>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>RimFallout_Wheel</def>
+              <coverage>0.3</coverage>
+              <customLabel>left wheel</customLabel>
+              <height>Bottom</height>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>RimFallout_WheelSupport</def>
+          <coverage>0.14</coverage>
+          <customLabel>right wheel support</customLabel>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>RimFallout_Wheel</def>
+              <coverage>0.3</coverage>
+              <customLabel>right wheel</customLabel>
+              <height>Bottom</height>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>RimFallout_WheelSupport</def>
+          <coverage>0.14</coverage>
+          <customLabel>rear wheel support</customLabel>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>RimFallout_Wheel</def>
+              <coverage>0.3</coverage>
+              <customLabel>rear wheel</customLabel>
+              <height>Bottom</height>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Reactor</def>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>RimFallout_DrinkinBuddyBody</defName>
+    <label>Drinkin’ Buddy chassis</label>
+    <corePart>
+      <def>MechanicalThorax</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>MechanicalHead</def>
+          <coverage>0.12</coverage>
+          <height>Top</height>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>SightSensor</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>HearingSensor</def>
+              <coverage>0.1</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>ArtificialBrain</def>
+          <coverage>0.05</coverage>
+          <customLabel>cognitive core</customLabel>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>MechanicalArm</def>
+          <coverage>0.12</coverage>
+          <customLabel>left arm</customLabel>
+          <parts>
+            <li>
+              <def>MechanicalHand</def>
+              <coverage>0.2</coverage>
+              <customLabel>left hand</customLabel>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalArm</def>
+          <coverage>0.12</coverage>
+          <customLabel>right arm</customLabel>
+          <parts>
+            <li>
+              <def>MechanicalHand</def>
+              <coverage>0.2</coverage>
+              <customLabel>right hand</customLabel>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalLeg</def>
+          <coverage>0.18</coverage>
+          <customLabel>left leg</customLabel>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <coverage>0.2</coverage>
+              <customLabel>left foot</customLabel>
+              <height>Bottom</height>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalLeg</def>
+          <coverage>0.18</coverage>
+          <customLabel>right leg</customLabel>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <coverage>0.2</coverage>
+              <customLabel>right foot</customLabel>
+              <height>Bottom</height>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Reactor</def>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

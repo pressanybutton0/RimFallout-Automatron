@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>RimFallout_Raid_RimFallout_Robobrain</defName>
+    <label>Robobrain</label>
+    <race>RimFallout_Robobrain</race>
+    <combatPower>220</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags Inherit="False">
+      <li>RimFallout_RobobrainIntegratedGun</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Automatron/Robobrain/Robobrain</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.6</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistRobots</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>RimFallout_Raid_RimFallout_SentryBot</defName>
+    <label>Sentry bot</label>
+    <race>RimFallout_SentryBot</race>
+    <combatPower>300</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags Inherit="False">
+      <li>RimFallout_SentryBotIntegratedGun</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Automatron/SentryBot/SentryBot</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.9</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistRobots</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterHandyMark1KindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterHandy_MarkOne</defName>
+    <label>Mr.Handy-Mark 1</label>
+    <race>Mech_MisterHandy_MarkOne</race>
+    <combatPower>80</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterHandy_Mark1</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.8</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterHandyMark1MilitaryKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterHandy_Mark1Military</defName>
+    <label>military Mr.Handy-Mark 1</label>
+    <race>Mech_MisterHandy_Mark1Military</race>
+    <combatPower>170.0</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>FalloutMech_Mark1DualMachinePistol</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterHandy_Mark1Military</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.8</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterHandyNexGenKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterHandy_NexGen</defName>
+    <label>Mr. Handy</label>
+    <race>Mech_MisterHandy_NexGen</race>
+    <combatPower>80</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterHandy_NexGen</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.55</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistRobots</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterHandyNexGenKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterFarmhand</defName>
+    <label>Mr. Farmhand</label>
+    <race>Mech_MisterFarmhand</race>
+    <combatPower>80</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterFarmhand</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.55</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterHandyNexGenKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterOrderly</defName>
+    <label>Mister Orderly</label>
+    <race>Mech_MisterOrderly</race>
+    <combatPower>80</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterOrderly</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.55</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterHandyNexGenKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MissNanny</defName>
+    <label>Miss Nanny</label>
+    <race>Mech_MissNanny</race>
+    <combatPower>80</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MissNanny</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.55</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterGutsyKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterGutsy</defName>
+    <label>Mr. Gutsy</label>
+    <race>Mech_MisterGutsy</race>
+    <combatPower>220.0</combatPower>
+    <weaponTags>
+      <li>FalloutMech_Gutsy10mmSMG</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterGutsy</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.55</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <allowInMechClusters>false</allowInMechClusters>
+    <defaultFactionDef>RimFallout_MechanistRobots</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterGutsyKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterGutsyLieutenant</defName>
+    <label>Lieutenant Mr. Gutsy</label>
+    <race>Mech_MisterGutsyLieutenant</race>
+    <combatPower>360.0</combatPower>
+    <weaponTags>
+      <li>FalloutMech_GutsyAutomaticLaserRifle</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterGutsyLieutenant</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.55</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <allowInMechClusters>false</allowInMechClusters>
+    <defaultFactionDef>RimFallout_MechanistRobots</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MisterGutsyKindBase" MayRequire="pressanybutton.MrHandy">
+    <defName>RimFallout_Raid_Mech_MisterGutsyColonel</defName>
+    <label>Colonel Mr. Gutsy</label>
+    <race>Mech_MisterGutsyColonel</race>
+    <combatPower>500.0</combatPower>
+    <weaponTags>
+      <li>FalloutMech_GutsyFocusedLaserRifle</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/MisterGutsyColonel</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.55</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <isFighter>true</isFighter>
+    <allowInMechClusters>false</allowInMechClusters>
+    <defaultFactionDef>RimFallout_MechanistRobots</defaultFactionDef>
+  </PawnKindDef>
+</Defs>

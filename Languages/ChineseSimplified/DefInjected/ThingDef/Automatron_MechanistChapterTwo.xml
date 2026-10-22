@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_MechanistOrdersTerminal.label>信标识别档案</RimFallout_MechanistOrdersTerminal.label>
+  <RimFallout_MechanistOrdersTerminal.description>保存着信标设备识别码与加密网络标记的终端。需要与同步记录比对，才能追踪信号。</RimFallout_MechanistOrdersTerminal.description>
+  <RimFallout_MechanistExecutionTerminal.label>信号同步档案</RimFallout_MechanistExecutionTerminal.label>
+  <RimFallout_MechanistExecutionTerminal.description>保存着信号同步记录的终端。不断变化的位置数据，似乎指向一台被拆解后搬走的机器人。</RimFallout_MechanistExecutionTerminal.description>
+</LanguageData>

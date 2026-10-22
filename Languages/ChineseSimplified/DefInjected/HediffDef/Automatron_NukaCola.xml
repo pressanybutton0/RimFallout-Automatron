@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_NukaBoostCherry.label>核子可乐：樱桃</RimFallout_NukaBoostCherry.label>
+  <RimFallout_NukaBoostCherry.description>视觉能力：+5%。\n\n持续6小时。</RimFallout_NukaBoostCherry.description>
+  <RimFallout_NukaBoostWild.label>核子可乐：狂野</RimFallout_NukaBoostWild.label>
+  <RimFallout_NukaBoostWild.description>移动速度：+5%。\n\n持续6小时。</RimFallout_NukaBoostWild.description>
+  <RimFallout_NukaBoostOrange.label>核子可乐：橙味</RimFallout_NukaBoostOrange.label>
+  <RimFallout_NukaBoostOrange.description>毒素抗性：+20%。\n\n持续6小时。</RimFallout_NukaBoostOrange.description>
+  <RimFallout_NukaBoostQuartz.label>核子可乐：石英</RimFallout_NukaBoostQuartz.label>
+  <RimFallout_NukaBoostQuartz.description>操作能力：+8%。\n\n持续6小时。</RimFallout_NukaBoostQuartz.description>
+  <RimFallout_NukaBoostVictory.label>核子可乐：胜利</RimFallout_NukaBoostVictory.label>
+  <RimFallout_NukaBoostVictory.description>承伤乘数：-5%。\n\n持续6小时。</RimFallout_NukaBoostVictory.description>
+  <RimFallout_NukaBoostQuantum.label>核子可乐：量子</RimFallout_NukaBoostQuantum.label>
+  <RimFallout_NukaBoostQuantum.description>移动速度：+5%；操作能力：+5%。\n\n持续6小时。</RimFallout_NukaBoostQuantum.description>
+  <RimFallout_NukaBoostDark.label>核子可乐：黑暗</RimFallout_NukaBoostDark.label>
+  <RimFallout_NukaBoostDark.description>近战伤害系数：+10%；痛觉系数：-20%；视觉能力：-5%。\n\n持续6小时。</RimFallout_NukaBoostDark.description>
+  <RimFallout_NukaGrapeCooldown.label>葡萄可乐去毒间隔</RimFallout_NukaGrapeCooldown.label>
+  <RimFallout_NukaGrapeCooldown.description>饮用葡萄味核子可乐后，6小时内不能再次降低中毒严重程度。</RimFallout_NukaGrapeCooldown.description>
+  <RimFallout_NukaTolerance.label>核子可乐耐受</RimFallout_NukaTolerance.label>
+  <RimFallout_NukaTolerance.description>身体逐渐适应了核子可乐中的成分，需要更多摄入才能获得同样的满足。停止饮用后，耐受会逐渐降低。</RimFallout_NukaTolerance.description>
+  <RimFallout_NukaAddiction.label>核子可乐成瘾</RimFallout_NukaAddiction.label>
+  <RimFallout_NukaAddiction.description>对核子可乐产生了依赖。停止饮用会引发戒断反应。</RimFallout_NukaAddiction.description>
+  <RimFallout_NukaAddiction.stages.1.label>戒断</RimFallout_NukaAddiction.stages.1.label>
+</LanguageData>

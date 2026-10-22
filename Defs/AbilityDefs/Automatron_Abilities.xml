@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <AbilityDef>
+    <defName>RimFallout_Mesmetron</defName>
+    <label>Mesmetron pulse</label>
+    <description>Emit a disruptive pulse that briefly reduces the target's consciousness. Requires a conscious, standing enemy in sight with psychic sensitivity.\n\nCooldown: 3 days.</description>
+    <iconPath>UI/Abilities/Automatron/Mesmetron</iconPath>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>false</aiCanUse>
+    <hostile>true</hostile>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+    <showCastingProgressBar>true</showCastingProgressBar>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>25</range>
+      <warmupTime>2.2</warmupTime>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>PsychicShockLanceCast</soundCast>
+      <targetParams>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_CombatAbility">
+        <cluster>false</cluster>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>RimFallout_BackCluster</defName>
+    <label>Back-mounted cluster shells</label>
+    <description>Launch three cluster shells at an area, bombarding targets near the impact points. Shells may scatter and hit allies. Must be fired outdoors; cannot target overhead mountains.\n\nCooldown: 3 days.</description>
+    <iconPath>UI/Abilities/Automatron/BackCluster</iconPath>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>false</aiCanUse>
+    <hostile>true</hostile>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+    <showCastingProgressBar>true</showCastingProgressBar>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>45</range>
+      <warmupTime>3</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Mortar_LaunchA</soundCast>
+      <minRange>12</minRange>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_CombatAbility">
+        <cluster>true</cluster>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

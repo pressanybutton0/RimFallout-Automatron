@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseGun">
+    <defName>RimFallout_RobobrainIntegratedGun</defName>
+    <label>integrated Tesla emitter</label>
+    <description>An electrical arc emitter fitted to a Robobrain's arm. After striking an enemy, the current jumps to nearby targets, weakening with each jump.</description>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Automatron/RobobrainTeslaEmitter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>0</Mass>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+    </statBases>
+    <weaponTags>
+      <li>RimFallout_RobobrainIntegratedGun</li>
+    </weaponTags>
+    <tools Inherit="False" />
+    <verbs>
+      <li>
+        <verbClass>RimFallout.Automatron.Verb_TeslaChain</verbClass>
+        <defaultProjectile>RimFallout_TeslaBolt</defaultProjectile>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>24.9</range>
+        <warmupTime>1.5</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>1</muzzleFlashScale>
+        <linkedBodyPartsGroup>RimFallout_AutomatronGunArms</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>false</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>RimFallout_SentryBotIntegratedGun</defName>
+    <label>integrated rotary gun</label>
+    <description>A minigun fitted to a Sentry bot's arm. Its rapidly rotating barrels pour out dense bursts of suppressive fire.</description>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Automatron/SentryRotaryGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>0</Mass>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+    </statBases>
+    <weaponTags>
+      <li>RimFallout_SentryBotIntegratedGun</li>
+    </weaponTags>
+    <tools Inherit="False" />
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RimFallout_MinigunRound</defaultProjectile>
+        <range>25.9</range>
+        <warmupTime>2</warmupTime>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>1</muzzleFlashScale>
+        <linkedBodyPartsGroup>RimFallout_AutomatronGunArms</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>false</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>RimFallout_TeslaBolt</defName>
+    <label>Tesla bolt</label>
+    <thingClass>RimFallout.Automatron.Bullet_TeslaChain</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationBase>0</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

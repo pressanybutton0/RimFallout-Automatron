@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_JezebelDepot.label>机器人拆解据点</RimFallout_JezebelDepot.label>
+  <RimFallout_JezebelDepot.description>掠夺者占据的机器人拆解据点。Jezebel的头部被当作战利品存放在其中。</RimFallout_JezebelDepot.description>
+  <RimFallout_JezebelDepot.approachOrderString>进攻{0}</RimFallout_JezebelDepot.approachOrderString>
+  <RimFallout_JezebelDepot.approachingReportString>正在进攻{0}。</RimFallout_JezebelDepot.approachingReportString>
+  <RimFallout_JezebelDepot.arrivedLetter>这片区域存在一个敌人的哨所。</RimFallout_JezebelDepot.arrivedLetter>
+</LanguageData>

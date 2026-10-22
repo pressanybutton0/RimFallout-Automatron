@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef Name="RimFalloutNukaBase" ParentName="DrugBase" Abstract="True">
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Original</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8</MarketValue>
+      <Mass>0.3</Mass>
+      <Nutrition>0.02</Nutrition>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+      <drugCategory>Social</drugCategory>
+      <joyKind>Chemical</joyKind>
+      <joy>0.05</joy>
+      <baseIngestTicks>120</baseIngestTicks>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <tableDesired>false</tableDesired>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>RimFalloutNuka</chemical>
+        <addictiveness>0.01</addictiveness>
+        <minToleranceToAddict>0.2</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <listOrder>115</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaOriginal</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Original</label>
+    <description>A popular pre-War soft drink. Its familiar sweetness and fizz offer a brief escape from everyday troubles, lifting the drinker's mood. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Original</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka" />
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaCherry</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Cherry</label>
+    <description>Cherry-flavored Nuka-Cola with a distinctive fruity sweetness. It lifts the drinker's mood and temporarily improves sight, bringing the world into sharper focus. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Cherry</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <flavorHediff>RimFallout_NukaBoostCherry</flavorHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaWild</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Wild</label>
+    <description>A root beer-flavored Nuka-Cola. It lifts the drinker's mood and puts a spring in their step, temporarily increasing movement speed. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Wild</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <flavorHediff>RimFallout_NukaBoostWild</flavorHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaOrange</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Orange</label>
+    <description>A bright, refreshing citrus-flavored Nuka-Cola. It lifts the drinker's mood and temporarily increases toxic resistance, but does not remove toxins already in the body. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Orange</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <flavorHediff>RimFallout_NukaBoostOrange</flavorHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaGrape</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Grape</label>
+    <description>Grape-flavored Nuka-Cola. Besides lifting the drinker's mood, it reduces toxic buildup. Drinking more in quick succession does not remove additional toxins. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Grape</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <grape>true</grape>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaQuartz</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Quartz</label>
+    <description>A pale Nuka-Cola with a faint glow. It lifts the drinker's mood and temporarily steadies their hands, improving manipulation. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Quartz</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <flavorHediff>RimFallout_NukaBoostQuartz</flavorHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaVictory</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Victory</label>
+    <description>A brightly colored Nuka-Cola with a soft glow. It lifts the drinker's mood and temporarily lowers the incoming damage multiplier, slightly reducing damage taken. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Victory</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <flavorHediff>RimFallout_NukaBoostVictory</flavorHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaQuantum</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksNonAlcoholic</li>
+    </thingCategories>
+    <label>Nuka-Cola Quantum</label>
+    <description>A Nuka-Cola that glows a vivid blue. It lifts the drinker's mood and makes their steps quicker and hands more nimble, temporarily improving movement speed and manipulation. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Quantum</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <flavorHediff>RimFallout_NukaBoostQuantum</flavorHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RimFalloutNukaBase">
+    <defName>RimFallout_NukaDark</defName>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksSimpleSpirits</li>
+    </thingCategories>
+    <label>Nuka-Cola Dark</label>
+    <description>A blend of Nuka-Cola sweetness and liquor. It lifts the drinker's mood, temporarily increases melee damage and dulls pain, but also reduces sight, making the world look blurred. No refrigeration required. Prolonged use may cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Automatron/Nuka/Nuka_Dark</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RimFallout_NukaTolerance</hediffDef>
+          <severity>0.02</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+          <toleranceChemical>RimFalloutNuka</toleranceChemical>
+        </li>
+        <li Class="RimFallout.Automatron.IngestionOutcomeDoer_Nuka">
+          <flavorHediff>RimFallout_NukaBoostDark</flavorHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <HediffDef>
+    <defName>RimFallout_NukaBoostCherry</defName>
+    <label>Nuka-Cola Cherry</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <description>Sight: +5%.\nLasts 6 hours.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>RimFallout_NukaBoostWild</defName>
+    <label>Nuka-Cola Wild</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <description>Move speed: +5%.\nLasts 6 hours.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <MoveSpeed>1.05</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>RimFallout_NukaBoostOrange</defName>
+    <label>Nuka-Cola Orange</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <description>Toxic resistance: +20%.\nLasts 6 hours.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.2</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>RimFallout_NukaBoostQuartz</defName>
+    <label>Nuka-Cola Quartz</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <description>Manipulation: +8%.\nLasts 6 hours.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.08</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>RimFallout_NukaBoostVictory</defName>
+    <label>Nuka-Cola Victory</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <description>Incoming damage multiplier: -5%.\nLasts 6 hours.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <IncomingDamageFactor>0.95</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>RimFallout_NukaBoostQuantum</defName>
+    <label>Nuka-Cola Quantum</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <description>Move speed: +5%; manipulation: +5%.\nLasts 6 hours.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <statFactors>
+          <MoveSpeed>1.05</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>RimFallout_NukaBoostDark</defName>
+    <label>Nuka-Cola Dark</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <description>Melee damage factor: +10%; pain factor: -20%; sight: -5%.\nLasts 6 hours.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+        <painFactor>0.8</painFactor>
+        <statFactors>
+          <MeleeDamageFactor>1.1</MeleeDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>RimFallout_NukaGrapeCooldown</defName>
+    <label>Nuka-Grape recovery interval</label>
+    <description>After drinking Nuka-Grape, toxic buildup cannot be reduced again for 6 hours.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+  <ChemicalDef>
+    <defName>RimFalloutNuka</defName>
+    <label>Nuka-Cola</label>
+    <description>The dependency-forming ingredients in Nuka-Cola.</description>
+    <addictionHediff>RimFallout_NukaAddiction</addictionHediff>
+    <toleranceHediff>RimFallout_NukaTolerance</toleranceHediff>
+    <generateAddictionGenes>false</generateAddictionGenes>
+    <canBinge>false</canBinge>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_RimFalloutNuka</defName>
+    <label>Nuka-Cola</label>
+    <needClass>Need_Chemical</needClass>
+    <fallPerDay>0.5</fallPerDay>
+    <listPriority>35</listPriority>
+    <description>A craving for Nuka-Cola. Prolonged abstinence causes withdrawal.</description>
+  </NeedDef>
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>RimFallout_NukaTolerance</defName>
+    <label>Nuka-Cola tolerance</label>
+    <description>The body has adapted to the ingredients in Nuka-Cola and needs more to feel satisfied. Tolerance gradually falls after abstinence.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.02</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>RimFallout_NukaAddiction</defName>
+    <label>Nuka-Cola addiction</label>
+    <description>Dependency on Nuka-Cola. Abstinence causes withdrawal.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <chemicalNeed>Chemical_RimFalloutNuka</chemicalNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.1</severityPerDay>
+        <showDaysToRecover>true</showDaysToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li />
+      <li>
+        <label>withdrawal</label>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>RimFallout_NukaWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RimFallout_NukaAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Nuka-Cola withdrawal</label>
+        <description>What?! That pre-War taste?!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RimFallout_NukaRefreshment</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.25</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Nuka-Cola refreshment</label>
+        <description>A refreshing bottle of (definitely radiation-free) Nuka-Cola.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <AbilityDef>
+    <defName>RimFallout_BuddyDispense</defName>
+    <label>Dispense Nuka-Cola</label>
+    <description>Dispense 3 bottles of the selected Nuka-Cola flavor. All flavors share a 24-hour cooldown.</description>
+    <abilityClass>RimFallout.Automatron.Ability_BuddyDispense</abilityClass>
+    <iconPath>UI/Commands/Automatron/Nuka/Dispense</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <targetRequired>false</targetRequired>
+    <aiCanUse>false</aiCanUse>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <showGizmoOnWorldView>false</showGizmoOnWorldView>
+    <groupAbility>false</groupAbility>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <range>0</range>
+      <targetParams />
+    </verbProperties>
+  </AbilityDef>
+</Defs>

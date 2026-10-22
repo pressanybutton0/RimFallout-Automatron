@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <HediffDef ParentName="DiseaseBase">
+    <defName>RimFallout_MesmetronShock</defName>
+    <label>Mesmetron shock</label>
+    <labelNoun>a Mesmetron pulse</labelNoun>
+    <description>Brief disorientation caused by a disruptive pulse.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>600~600</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

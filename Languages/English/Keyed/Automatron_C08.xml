@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_CasterUnable>The caster cannot act.</RF_CasterUnable>
+  <RF_RoofedCaster>Cluster shells cannot be launched under a roof.</RF_RoofedCaster>
+  <RF_InvalidLanding>Select a location on this map, 12–45 cells away, without an overhead mountain.</RF_InvalidLanding>
+  <RF_InvalidMesmetron>Requires a conscious, standing enemy in sight with psychic sensitivity. Cannot target a pawn that dies when downed.</RF_InvalidMesmetron>
+  <RF_BuddyDuplicates>Multiple Drinkin' Buddies detected ({0}). Please check the game log and report this to the mod author.</RF_BuddyDuplicates>
+</LanguageData>

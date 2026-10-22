@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_GestateRobobrain.label>培育机器脑</RimFallout_GestateRobobrain.label>
+  <RimFallout_GestateRobobrain.description>培育一个机器脑。</RimFallout_GestateRobobrain.description>
+  <RimFallout_GestateRobobrain.jobString>正在培育机械族。</RimFallout_GestateRobobrain.jobString>
+  <RimFallout_GestateSentryBot.label>培育哨兵机器人</RimFallout_GestateSentryBot.label>
+  <RimFallout_GestateSentryBot.description>培育一个哨兵机器人。</RimFallout_GestateSentryBot.description>
+  <RimFallout_GestateSentryBot.jobString>正在培育机械族。</RimFallout_GestateSentryBot.jobString>
+</LanguageData>

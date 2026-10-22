@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_Headhunting.questNameRules.rulesStrings>
+    <li>questName-&gt;机械军团：猎头</li>
+  </RimFallout_Headhunting.questNameRules.rulesStrings>
+  <RimFallout_Headhunting.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;“如果你听得懂这段通讯，就证明你至少比这里的拾荒者聪明。”Ada追踪的信号竟来自一颗仍能思考的头部。自称Jezebel的机器人落入了锈魔之手，如今被当作战利品存放在他们营地的一间建筑内。\n\n攻入据点，把Jezebel的头部带回家。她答应提供通往机械大师设施的资料，条件是你先为她重建身体。完成重建后，与她交谈，Ada才能继续寻找机械大师。再说了，多一台机器脑有什么不好的呢。\n\n在问出线索前，请保全Jezebel，否则这条线索就会中断。</li>
+  </RimFallout_Headhunting.questDescriptionRules.rulesStrings>
+</LanguageData>

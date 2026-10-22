@@ -1,0 +1,34 @@
+<Defs>
+  <ComplexLayoutDef>
+    <defName>RimFallout_ArchiveComplexLayout</defName>
+    <workerClass>RimFallout.Automatron.LayoutWorker_ArchiveComplex</workerClass>
+    <roomRewardCrateFactor>0</roomRewardCrateFactor>
+    <minRoomWidth>7</minRoomWidth>
+    <minRoomHeight>7</minRoomHeight>
+    <clearDoorFaction>false</clearDoorFaction>
+    <corridorDef>ComplexCorridor</corridorDef>
+    <canDisconnectRooms>false</canDisconnectRooms>
+    <areaPrunePercent>0.1</areaPrunePercent>
+    <roomDefs>
+      <AncientRechargeRoom>
+        <weight>1</weight>
+      </AncientRechargeRoom>
+      <AncientMechGestatorRoom>
+        <weight>1</weight>
+      </AncientMechGestatorRoom>
+      <AncientMechGeneratorRoom>
+        <weight>1</weight>
+      </AncientMechGeneratorRoom>
+      <AncientBandNodeRoom>
+        <weight>2</weight>
+        <countRange>0~2</countRange>
+      </AncientBandNodeRoom>
+    </roomDefs>
+    <threats>
+      <FuelNode MayRequire="Ludeon.RimWorld.Ideology">
+        <maxPerRoom>1</maxPerRoom>
+        <selectionWeight>3</selectionWeight>
+      </FuelNode>
+    </threats>
+  </ComplexLayoutDef>
+</Defs>

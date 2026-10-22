@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModNotActive="pressanybutton.MrHandy">Optional/StandaloneResearch</li>
+    <li IfModActive="pressanybutton.MrHandy">Optional/HandyRaid</li>
+    <li IfModActiveAll="brrainz.harmony,Orion.CashRegister">Optional/BuddyService</li>
+  </v1.6>
+</loadFolders>

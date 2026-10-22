@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ResearchTabDef>
+    <defName>RimFallout_AutomatronRobotics</defName>
+    <label>Fallout robotics</label>
+    <generalTitle>Automatron engineering</generalTitle>
+    <generalDescription>Adapt Robobrain and Sentry bot chassis to mechanitor control.</generalDescription>
+  </ResearchTabDef>
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>RimFallout_AutomatronRobobrainEngineering</defName>
+    <label>Robobrain engineering</label>
+    <description>Build and resurrect Robobrains. These tracked robots attack with electrical arcs and emit pulses that disrupt consciousness.</description>
+    <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+    <tab>RimFallout_AutomatronRobotics</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3.5</researchViewY>
+    <prerequisites>
+      <li>BasicMechtech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>RimFallout_AutomatronSentryEngineering</defName>
+    <label>Sentry bot engineering</label>
+    <description>Build and resurrect Sentry bots. These armored robots carry miniguns and back-mounted cluster shells.</description>
+    <baseCost>1600</baseCost>
+        <techLevel>Industrial</techLevel>
+    <tab>RimFallout_AutomatronRobotics</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4.2</researchViewY>
+    <prerequisites>
+      <li>BasicMechtech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

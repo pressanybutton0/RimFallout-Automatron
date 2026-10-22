@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_RestoringOrder.questNameRules.rulesStrings>
+    <li>questName-&gt;机械军团：恢复秩序</li>
+  </RimFallout_RestoringOrder.questNameRules.rulesStrings>
+  <RimFallout_RestoringOrder.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;Ada终于解出了Jezebel提供的访问资料。偏远的设施仍在发送“保护平民”的指令，而你已经知道这些指令在外面意味着什么。“找到机械大师，”Ada说，“让她听见那些救援报告没有告诉她的事。”\n\n基地的炮塔已经启动，机械守卫在内部巡逻。外围的太阳能板为防线供电，摧毁它们或许能让突破容易一些。\n\n机械大师就在基地内。你可以说服她交出主控权限，再决定是否接纳她加入殖民地；如果她死了，你也能接管终端。仅仅击倒或俘虏她是不够的。最后，你需要操作主控，关闭那张不断派出机器人的网络。\n\n进入基地后，若放弃调查或失去关键目标，Ada将无法再找到关闭网络的机会。\n\nWar. War never changes.</li>
+  </RimFallout_RestoringOrder.questDescriptionRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_BuddyServiceUnsupported>饮料哥与{0}的服务适配出现异常：{1}。请查看游戏日志并向模组作者反馈。</RF_BuddyServiceUnsupported>
+  <RF_BuddyServiceUnavailable>饮料哥须为本地图上存活且受玩家控制的机械体。</RF_BuddyServiceUnavailable>
+  <RF_BuddyServiceUnassigned>饮料哥的服务适配出现异常，已取消{0}项排班。请查看游戏日志并向模组作者反馈。</RF_BuddyServiceUnassigned>
+</LanguageData>

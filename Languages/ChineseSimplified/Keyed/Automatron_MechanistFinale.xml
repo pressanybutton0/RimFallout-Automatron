@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_FinalFacility>机械大师设施</RF_FinalFacility>
+  <RF_FinalSuccess>机械大师网络已经关闭。机器人停止了进攻，机械军团不会再派出部队袭击你的殖民地。</RF_FinalSuccess>
+  <RF_FinalOfferEnded>机械军团任务未接受，已失效。</RF_FinalOfferEnded>
+  <RF_FinalArrivalLimit>前往机械大师的基地。进入基地后，若放弃调查或失去关键目标，这次调查将无法继续。</RF_FinalArrivalLimit>
+  <RF_FinalArrivalRemaining>前往机械大师的基地。进入基地后，若放弃调查或失去关键目标，这次调查将无法继续。</RF_FinalArrivalRemaining>
+  <RF_FinalStages>突破巡逻守卫和炮塔，与机械大师交谈。</RF_FinalStages>
+  <RF_FinalAuthority>已取得权限。操作主控完成停机。</RF_FinalAuthority>
+  <RF_FinalReservation>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_FinalReservation>
+  <RF_FinalSiteFailure>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_FinalSiteFailure>
+  <RF_FinalPermanentFailure>调查已无法继续。Ada无法再安排前往这座设施的远征。</RF_FinalPermanentFailure>
+  <RF_FinalAbandoned>你放弃了这次远征。若尚未进入基地，Ada会继续寻找机会。</RF_FinalAbandoned>
+  <RF_FinalExpired>你未能及时抵达设施。Ada会继续寻找机会。</RF_FinalExpired>
+  <RF_FinalMasterLost>主控已经遗失或毁坏，无法关闭机械大师网络。</RF_FinalMasterLost>
+  <RF_FinalIdentityLost>Isabel已失踪，无法再取得她的控制权限。</RF_FinalIdentityLost>
+  <RF_FinalLocalThreat>附近可见敌人威胁此终端。</RF_FinalLocalThreat>
+  <RF_FinalDialogue>Isabel听完证词，许久没有说话。“那些数字……我以为那是被救下的人。我让它们保护平民，怎么会……”她看向仍在闪烁的控制台。\n\n她似乎已经动摇。一名擅长交涉的殖民者或许能说服她加入你们，一起弥补这些过错。</RF_FinalDialogue>
+  <RF_FinalPeace>劝说Isabel加入（需要社交10级）</RF_FinalPeace>
+  <RF_FinalJoinOffer>Isabel希望加入你的殖民地。她愿意交出主控权限，帮助你们停止机器人的袭击。\n\n你愿意接纳她吗？即使拒绝她加入，你也可以使用主控。</RF_FinalJoinOffer>
+  <RF_FinalViewIsabel>查看Isabel的人物资料</RF_FinalViewIsabel>
+  <RF_FinalAcceptIsabel>接纳Isabel加入殖民地</RF_FinalAcceptIsabel>
+  <RF_FinalDeclineIsabel>暂不接纳</RF_FinalDeclineIsabel>
+  <RF_FinalLater>结束交谈</RF_FinalLater>
+  <RF_FinalHandover>Isabel Cruz已加入殖民地，并交出了主控权限。现在可以关闭机械大师网络了。</RF_FinalHandover>
+  <RF_FinalClosed>终端已无法继续使用。</RF_FinalClosed>
+  <RF_FinalNeedTalk>需要Isabel交出权限，或在她死亡后接管主控。</RF_FinalNeedTalk>
+  <RF_FinalControl>关闭机械大师网络</RF_FinalControl>
+  <RF_FinalTerminalInfo>需要能够研究的殖民者。</RF_FinalTerminalInfo>
+  <RF_FinalTalk>与Isabel Cruz交谈</RF_FinalTalk>
+  <RF_FinalTalkBlocked>让可行动、未征召的殖民者靠近清醒且未被俘的Isabel。</RF_FinalTalkBlocked>
+  <RF_FinalSocialLow>需要社交达到10级且能够说话的殖民者。</RF_FinalSocialLow>
+  <RF_FinalRejectIsabel>拒绝加入，让Isabel离开</RF_FinalRejectIsabel>
+  <RF_FinalRejected>Isabel交出了主控权限，随后告别离去。</RF_FinalRejected>
+</LanguageData>

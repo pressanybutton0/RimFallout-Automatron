@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_MechRelayName>Damaged relay station</RF_MechRelayName>
+  <RF_MechTargets>Relay station and terminal</RF_MechTargets>
+  <RF_MechRecordReward>Radar-beacon carrier data</RF_MechRecordReward>
+  <RF_MechRecordInfo>Beacon carrier and identification records from the relay station. Ada needs them to trace the Mechanist's robot network.</RF_MechRecordInfo>
+  <RF_MechChapterComplete>Investigation complete. Ada: "The frequencies match. These are the robots that attacked the caravan. But identification codes are not enough. I need the maintenance network's synchronization records."</RF_MechChapterComplete>
+  <RF_MechOfferExpired>This Automatron quest was not accepted and has expired.</RF_MechOfferExpired>
+  <RF_MechOfferEnded>This Automatron quest was not accepted and has expired. Ada will contact you when she finds another lead.</RF_MechOfferEnded>
+  <RF_MechEndedFailed>The relay records were not recovered. Ada will keep looking for leads.</RF_MechEndedFailed>
+  <RF_MechAtRelay>Clear the relay station's guards and read the terminal.</RF_MechAtRelay>
+  <RF_MechArrivalRemaining>Travel to the relay station with a colonist capable of research.</RF_MechArrivalRemaining>
+  <RF_MechArrivalLimit>Travel to the relay station with a colonist capable of research.</RF_MechArrivalLimit>
+  <RF_MechReservationLost>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_MechReservationLost>
+  <RF_MechSiteFailure>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_MechSiteFailure>
+  <RF_MechArrivalExpired>You did not arrive in time. The relay station's signal has disappeared.</RF_MechArrivalExpired>
+  <RF_MechTerminalLost>The relay terminal was lost or destroyed before its records were downloaded. The investigation has failed.</RF_MechTerminalLost>
+  <RF_MechRelayAbandoned>You left the relay station before downloading the records. The investigation has failed.</RF_MechRelayAbandoned>
+  <RF_MechTerminalClosed>The investigation has ended or the records have already been downloaded.</RF_MechTerminalClosed>
+  <RF_MechNeedResearch>Requires a colonist capable of research.</RF_MechNeedResearch>
+  <RF_MechCannotOperate>The operator cannot work. Check their condition and undraft them.</RF_MechCannotOperate>
+  <RF_MechUnreachable>Cannot reach the terminal.</RF_MechUnreachable>
+  <RF_MechThreatsRemain>Clear the hostile threats in this area first.</RF_MechThreatsRemain>
+  <RF_MechDownload>Download beacon carrier data</RF_MechDownload>
+  <RF_MechTerminalInspect>Requires a colonist capable of research.</RF_MechTerminalInspect>
+</LanguageData>

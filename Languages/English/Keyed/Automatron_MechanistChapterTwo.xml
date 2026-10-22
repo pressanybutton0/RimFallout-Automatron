@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_MechTwoRelayName>Beacon maintenance station</RF_MechTwoRelayName>
+  <RF_MechTwoTargets>Maintenance station and terminals</RF_MechTwoTargets>
+  <RF_MechTwoRecordReward>Beacon tracking data</RF_MechTwoRecordReward>
+  <RF_MechTwoRecordInfo>Beacon identification and synchronization records. Comparing them will narrow down the search for another active signal.</RF_MechTwoRecordInfo>
+  <RF_MechTwoChapterComplete>Investigation complete. Ada: "Found it. Another signal is still responding, but its movements are strange. The equipment seems to have been taken apart and moved. Perhaps its owner can tell us more."</RF_MechTwoChapterComplete>
+  <RF_MechTwoOfferExpired>This Automatron quest was not accepted and has expired.</RF_MechTwoOfferExpired>
+  <RF_MechTwoOfferEnded>This Automatron quest was not accepted and has expired. Ada will contact you when she finds another lead.</RF_MechTwoOfferEnded>
+  <RF_MechTwoEndedFailed>The beacon records were not fully recovered. Ada will keep looking for leads.</RF_MechTwoEndedFailed>
+  <RF_MechTwoAtRelay>Clear the guards and read both terminals.</RF_MechTwoAtRelay>
+  <RF_MechTwoArrivalRemaining>Travel to the beacon maintenance station and read both archives.</RF_MechTwoArrivalRemaining>
+  <RF_MechTwoArrivalLimit>Travel to the beacon maintenance station and read both archives.</RF_MechTwoArrivalLimit>
+  <RF_MechTwoReservationLost>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_MechTwoReservationLost>
+  <RF_MechTwoSiteFailure>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_MechTwoSiteFailure>
+  <RF_MechTwoArrivalExpired>You did not reach the maintenance station in time. Ada will keep looking for leads.</RF_MechTwoArrivalExpired>
+  <RF_MechTwoTerminalLost>An unread archive terminal has been lost or destroyed. The investigation has failed. Ada will keep looking for leads.</RF_MechTwoTerminalLost>
+  <RF_MechTwoRelayAbandoned>You left the maintenance station before collecting both records. The investigation has failed. Ada will keep looking for leads.</RF_MechTwoRelayAbandoned>
+  <RF_MechTwoTerminalClosed>This archive can no longer be read.</RF_MechTwoTerminalClosed>
+  <RF_MechTwoDownload>Read archive records</RF_MechTwoDownload>
+  <RF_MechTwoTerminalInspect>Unread. Requires a colonist capable of research.</RF_MechTwoTerminalInspect>
+  <RF_MechTwoTerminalRead>These records have been recovered.</RF_MechTwoTerminalRead>
+  <RF_MechTwoEvidenceStatus>Beacon identification: {0}\nSignal synchronization: {1}</RF_MechTwoEvidenceStatus>
+  <RF_MechTwoRead>Read</RF_MechTwoRead>
+  <RF_MechTwoUnread>Unread</RF_MechTwoUnread>
+  <RF_MechTwoRemainingExecution>Next: read the signal synchronization archive.</RF_MechTwoRemainingExecution>
+  <RF_MechTwoRemainingOrders>Next: read the beacon identification archive.</RF_MechTwoRemainingOrders>
+  <RF_MechTwoOrdersText>Beacon identification: these device codes share the relay's encrypted network signature. Several transmitters remain registered. Identification codes distinguish devices, but do not locate their commander. Compare the synchronization records to find an active signal.</RF_MechTwoOrdersText>
+  <RF_MechTwoExecutionText>Signal synchronization: another device associated with a Robobrain is still making periodic contact. Its shifting relay offsets suggest that it was dismantled and transported. Combined with its identification code, this narrows the search area, though it does not provide exact coordinates.</RF_MechTwoExecutionText>
+  <RF_MechTwoOrdersAcquired>Beacon identification recovered. Read the signal synchronization archive next.</RF_MechTwoOrdersAcquired>
+  <RF_MechTwoExecutionAcquired>Signal synchronization recovered. Read the beacon identification archive next.</RF_MechTwoExecutionAcquired>
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_ResurrectRobobrain.label>复活机器脑</RimFallout_ResurrectRobobrain.label>
+  <RimFallout_ResurrectRobobrain.description>复活一个友方机器脑。前提是机械族的身体未被完全摧毁。</RimFallout_ResurrectRobobrain.description>
+  <RimFallout_ResurrectRobobrain.jobString>正在复活机械族。</RimFallout_ResurrectRobobrain.jobString>
+  <RimFallout_ResurrectSentryBot.label>复活哨兵机器人</RimFallout_ResurrectSentryBot.label>
+  <RimFallout_ResurrectSentryBot.description>复活一个友方哨兵机器人。前提是机械族的身体未被完全摧毁。</RimFallout_ResurrectSentryBot.description>
+  <RimFallout_ResurrectSentryBot.jobString>正在复活机械族。</RimFallout_ResurrectSentryBot.jobString>
+  <RimFallout_ResurrectDrinkinBuddy.label>复活饮料哥</RimFallout_ResurrectDrinkinBuddy.label>
+  <RimFallout_ResurrectDrinkinBuddy.description>复活友方的饮料哥。前提是他的身体未被完全摧毁。</RimFallout_ResurrectDrinkinBuddy.description>
+  <RimFallout_ResurrectDrinkinBuddy.jobString>正在复活机械族。</RimFallout_ResurrectDrinkinBuddy.jobString>
+</LanguageData>

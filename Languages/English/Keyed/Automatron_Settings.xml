@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_EnemyAbilitiesInfo>Allow enemies to use these abilities. Disabled by default. Does not affect player, allied or neutral units.</RF_EnemyAbilitiesInfo>
+  <RF_EnemyMesmetron>Allow enemy Robobrains to use Mesmetron pulse</RF_EnemyMesmetron>
+  <RF_EnemyMesmetronTip>Allow enemy Robobrains to use Mesmetron pulse.</RF_EnemyMesmetronTip>
+  <RF_EnemyBackCluster>Allow enemy Sentry bots to use back-mounted cluster shells</RF_EnemyBackCluster>
+  <RF_EnemyBackClusterTip>Allow enemy Sentry bots to fire back-mounted cluster shells.</RF_EnemyBackClusterTip>
+  <RF_EnemyAbilitiesExistingEffects>These settings apply to all saves. Disabling an ability does not remove projectiles already in flight or effects already applied.</RF_EnemyAbilitiesExistingEffects>
+  <RF_EnemyAbilityDisabled>Enemy use of this ability is disabled.</RF_EnemyAbilityDisabled>
+</LanguageData>

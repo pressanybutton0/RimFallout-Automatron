@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ResearchTabDef[defName="FalloutMech_Robotics"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName="RimFallout_AutomatronRobobrainEngineering"]/tab</xpath>
+          <value>
+            <tab>FalloutMech_Robotics</tab>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName="RimFallout_AutomatronSentryEngineering"]/tab</xpath>
+          <value>
+            <tab>FalloutMech_Robotics</tab>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ResearchTabDef[defName="RimFallout_AutomatronRobotics"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

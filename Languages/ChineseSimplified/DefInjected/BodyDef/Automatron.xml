@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_RobobrainBody.corePart.parts.0.customLabel>脑罐</RimFallout_RobobrainBody.corePart.parts.0.customLabel>
+  <RimFallout_RobobrainBody.corePart.parts.0.parts.2.customLabel>保存大脑</RimFallout_RobobrainBody.corePart.parts.0.parts.2.customLabel>
+  <RimFallout_RobobrainBody.corePart.parts.1.customLabel>左臂</RimFallout_RobobrainBody.corePart.parts.1.customLabel>
+  <RimFallout_RobobrainBody.corePart.parts.1.parts.0.customLabel>左手</RimFallout_RobobrainBody.corePart.parts.1.parts.0.customLabel>
+  <RimFallout_RobobrainBody.corePart.parts.2.customLabel>右臂</RimFallout_RobobrainBody.corePart.parts.2.customLabel>
+  <RimFallout_RobobrainBody.corePart.parts.2.parts.0.customLabel>右手</RimFallout_RobobrainBody.corePart.parts.2.parts.0.customLabel>
+  <RimFallout_RobobrainBody.corePart.parts.3.customLabel>左履带</RimFallout_RobobrainBody.corePart.parts.3.customLabel>
+  <RimFallout_RobobrainBody.corePart.parts.4.customLabel>右履带</RimFallout_RobobrainBody.corePart.parts.4.customLabel>
+  <RimFallout_RobobrainBody.label>机器脑机体</RimFallout_RobobrainBody.label>
+  <RimFallout_SentryBotBody.corePart.parts.0.parts.2.customLabel>认知核心</RimFallout_SentryBotBody.corePart.parts.0.parts.2.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.1.customLabel>左臂</RimFallout_SentryBotBody.corePart.parts.1.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.1.parts.0.customLabel>左手</RimFallout_SentryBotBody.corePart.parts.1.parts.0.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.2.customLabel>右臂</RimFallout_SentryBotBody.corePart.parts.2.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.2.parts.0.customLabel>右手</RimFallout_SentryBotBody.corePart.parts.2.parts.0.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.3.customLabel>左轮式支撑</RimFallout_SentryBotBody.corePart.parts.3.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.3.parts.0.customLabel>左滚轮</RimFallout_SentryBotBody.corePart.parts.3.parts.0.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.4.customLabel>右轮式支撑</RimFallout_SentryBotBody.corePart.parts.4.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.4.parts.0.customLabel>右滚轮</RimFallout_SentryBotBody.corePart.parts.4.parts.0.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.5.customLabel>后轮式支撑</RimFallout_SentryBotBody.corePart.parts.5.customLabel>
+  <RimFallout_SentryBotBody.corePart.parts.5.parts.0.customLabel>后滚轮</RimFallout_SentryBotBody.corePart.parts.5.parts.0.customLabel>
+  <RimFallout_SentryBotBody.label>哨兵机器人机体</RimFallout_SentryBotBody.label>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.1.customLabel>认知核心</RimFallout_DrinkinBuddyBody.corePart.parts.1.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.2.customLabel>左臂</RimFallout_DrinkinBuddyBody.corePart.parts.2.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.2.parts.0.customLabel>左手</RimFallout_DrinkinBuddyBody.corePart.parts.2.parts.0.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.3.customLabel>右臂</RimFallout_DrinkinBuddyBody.corePart.parts.3.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.3.parts.0.customLabel>右手</RimFallout_DrinkinBuddyBody.corePart.parts.3.parts.0.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.4.customLabel>左腿</RimFallout_DrinkinBuddyBody.corePart.parts.4.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.4.parts.0.customLabel>左足</RimFallout_DrinkinBuddyBody.corePart.parts.4.parts.0.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.5.customLabel>右腿</RimFallout_DrinkinBuddyBody.corePart.parts.5.customLabel>
+  <RimFallout_DrinkinBuddyBody.corePart.parts.5.parts.0.customLabel>右足</RimFallout_DrinkinBuddyBody.corePart.parts.5.parts.0.customLabel>
+  <RimFallout_DrinkinBuddyBody.label>饮料哥机体</RimFallout_DrinkinBuddyBody.label>
+</LanguageData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DutyDef>
+    <defName>RimFallout_FacilityPatrol</defName>
+    <thinkNode Class="RimFallout.Automatron.JobGiver_FacilityPatrol" />
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+  </DutyDef>
+  <JobDef>
+    <defName>RimFallout_FacilityPatrolMove</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_FacilityPatrolMove</driverClass>
+    <reportString>Patrolling the facility.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>RimFallout_FacilityAttack</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_FacilityAttack</driverClass>
+    <reportString>Defending the facility.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

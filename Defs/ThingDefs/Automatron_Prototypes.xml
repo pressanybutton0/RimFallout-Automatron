@@ -1,0 +1,91 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef Name="RimFallout_AutomatronPrototype" ParentName="LightMechanoid" Abstract="True">
+    <race>
+      <mechEnabledWorkTypes Inherit="False" />
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Militor_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Militor_Death</soundDeath>
+          <soundCall>Pawn_Mech_Militor_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+  </ThingDef>
+  <ThingDef ParentName="RimFallout_AutomatronPrototype">
+    <defName>RimFallout_Robobrain</defName>
+    <label>Robobrain</label>
+    <description>A multipurpose robot with an organic brain at its core, developed by General Atomics and the US military with support from RobCo. Its tracked chassis handles varied terrain, while its brain allows complex instructions. Armor shields the fragile brain case, but the thoughts inside may not always obey the programming.</description>
+    <statBases>
+      <MoveSpeed>2.8</MoveSpeed>
+      <BandwidthCost>2</BandwidthCost>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <MarketValue>1400</MarketValue>
+      <MechEnergyLossPerHP>0.5</MechEnergyLossPerHP>
+    </statBases>
+    <race>
+      <body>RimFallout_RobobrainBody</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.0</baseHealthScale>
+      <renderTree>RimFallout_AutomatronIntegrated</renderTree>
+    </race>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_CombatController" />
+    </comps>
+    <butcherProducts Inherit="False">
+      <Steel>20</Steel>
+      <Plasteel>5</Plasteel>
+    </butcherProducts>
+  </ThingDef>
+  <ThingDef ParentName="RimFallout_AutomatronPrototype">
+    <defName>RimFallout_SentryBot</defName>
+    <label>Sentry bot</label>
+    <description>A heavy military robot fielded before the War, representing the pinnacle of contemporary robotic weapons engineering. Thick cast armor protects its main systems, while three wheeled legs support its enormous frame. Its arms can mount miniguns or missile launchers, with additional hardpoints for cluster grenade launchers on its back. Built for the front line, it is a mobile heavy-weapons platform.</description>
+    <statBases>
+      <MoveSpeed>2.4</MoveSpeed>
+      <BandwidthCost>3</BandwidthCost>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <MarketValue>2400</MarketValue>
+      <MechEnergyLossPerHP>0.35</MechEnergyLossPerHP>
+    </statBases>
+    <race>
+      <body>RimFallout_SentryBotBody</body>
+      <baseBodySize>1.6</baseBodySize>
+      <baseHealthScale>2.0</baseHealthScale>
+      <renderTree>RimFallout_AutomatronIntegrated</renderTree>
+    </race>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_CombatController" />
+    </comps>
+    <butcherProducts Inherit="False">
+      <Steel>35</Steel>
+      <Plasteel>15</Plasteel>
+    </butcherProducts>
+  </ThingDef>
+  <ThingDef ParentName="RimFallout_AutomatronPrototype">
+    <defName>RimFallout_DrinkinBuddy</defName>
+    <label>Protectron</label>
+    <description>A modified Protectron originally built to brew and serve drinks at a bar. Long after the customers have gone, he is still eager to offer another round. Now stocked with assorted Nuka-Cola flavors, he can also help serve customers in shops and restaurants.</description>
+    <statBases>
+      <MoveSpeed>2.6</MoveSpeed>
+      <BandwidthCost>1</BandwidthCost>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <MechEnergyLossPerHP>0.5</MechEnergyLossPerHP>
+    </statBases>
+    <race>
+      <body>RimFallout_DrinkinBuddyBody</body>
+      <renderTree>RimFallout_BuddyRenderTree</renderTree>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.0</baseHealthScale>
+    </race>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_BuddyIdentity" />
+      <li Class="RimFallout.Automatron.CompProperties_BuddyCola" />
+    </comps>
+  </ThingDef>
+</Defs>

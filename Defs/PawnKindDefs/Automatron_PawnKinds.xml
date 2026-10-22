@@ -1,0 +1,67 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>RimFallout_Robobrain</defName>
+    <label>Robobrain</label>
+    <race>RimFallout_Robobrain</race>
+    <combatPower>180</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags Inherit="False">
+      <li>RimFallout_RobobrainIntegratedGun</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Automatron/Robobrain/Robobrain</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.6</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>RimFallout_SentryBot</defName>
+    <label>Sentry bot</label>
+    <race>RimFallout_SentryBot</race>
+    <combatPower>300</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags Inherit="False">
+      <li>RimFallout_SentryBotIntegratedGun</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Automatron/SentryBot/SentryBot</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.9</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>RimFallout_DrinkinBuddy</defName>
+    <label>Protectron</label>
+    <race>RimFallout_DrinkinBuddy</race>
+    <combatPower>25</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <weaponMoney>0~0</weaponMoney>
+    <weaponTags Inherit="False" />
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Automatron/DrinkinBuddy/DrinkinBuddy</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+</Defs>

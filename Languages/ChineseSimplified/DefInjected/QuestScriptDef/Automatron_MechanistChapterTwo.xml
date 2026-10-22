@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_MisguidedGoodwill.questNameRules.rulesStrings>
+    <li>questName-&gt;机械军团：新的威胁</li>
+  </RimFallout_MisguidedGoodwill.questNameRules.rulesStrings>
+  <RimFallout_MisguidedGoodwill.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;Ada从中继站记录里分离出一组重复出现的信号：“它们并非漫无目的地游荡。有一张网络在分派任务，而每一次袭击都被记录成了一次救援。”\n\n线索指向一座信标维护站，六台敌对战斗机器人仍在那里活动。站内分别保存着信标识别档案和信号同步档案。比对两份资料，Ada就能追踪另一个仍在移动的信号。\n\nAda会在找到下一条线索后联系你。</li>
+  </RimFallout_MisguidedGoodwill.questDescriptionRules.rulesStrings>
+</LanguageData>

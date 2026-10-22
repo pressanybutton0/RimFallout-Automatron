@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_MechanistTerminal.label>信标中继终端</RimFallout_MechanistTerminal.label>
+  <RimFallout_MechanistTerminal.description>保存着机器人信标载波和识别记录的通讯终端。Ada可以借助这些资料追踪袭击者。</RimFallout_MechanistTerminal.description>
+</LanguageData>

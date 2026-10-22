@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <BodyPartDef>
+    <defName>RimFallout_Track</defName>
+    <label>track assembly</label>
+    <hitPoints>35</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RimFallout_WheelSupport</defName>
+    <label>wheel support</label>
+    <hitPoints>40</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RimFallout_Wheel</defName>
+    <label>wheel</label>
+    <hitPoints>25</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+</Defs>

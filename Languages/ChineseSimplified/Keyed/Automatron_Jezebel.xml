@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_JezDepotName>机器人拆解据点</RF_JezDepotName>
+  <RF_JezTargets>Jezebel与拆解据点</RF_JezTargets>
+  <RF_JezBillExists>已安排重建Jezebel。</RF_JezBillExists>
+  <RF_JezBillAdded>已在机械培育器中添加重建Jezebel的清单。</RF_JezBillAdded>
+  <RF_JezCannotInteract>需要清醒、可行动、未征召且能接近目标的人类殖民者。</RF_JezCannotInteract>
+  <RF_JezLocked>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_JezLocked>
+  <RF_JezSuccess>Jezebel解释了她如何把终止生命当作消除痛苦，并将死亡人数作为救援成果上报机械大师。她交出了设施的访问资料。Ada将根据这些线索寻找入口。</RF_JezSuccess>
+  <RF_JezOfferEnded>机械军团任务未接受，已失效。</RF_JezOfferEnded>
+  <RF_JezRevive>将Jezebel的尸体送入机械培育器，修复并重新激活她。</RF_JezRevive>
+  <RF_JezTalkStage>与重建后的Jezebel交谈。</RF_JezTalkStage>
+  <RF_JezRepairStage>将Jezebel的头部送入机械培育器，重建她的身体。</RF_JezRepairStage>
+  <RF_JezReturnStage>将Jezebel的头部带回殖民地</RF_JezReturnStage>
+  <RF_JezAtDepot>从拆解据点中带回Jezebel的头部。</RF_JezAtDepot>
+  <RF_JezArrivalRemaining>前往拆解据点，找回Jezebel的头部。</RF_JezArrivalRemaining>
+  <RF_JezArrivalLimit>前往拆解据点，找回Jezebel的头部。</RF_JezArrivalLimit>
+  <RF_JezReservationLost>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_JezReservationLost>
+  <RF_JezSiteFailure>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_JezSiteFailure>
+  <RF_JezHeadLost>Jezebel的头部已经遗失或毁坏。失去她的线索，追查机械大师的旅程就此结束。</RF_JezHeadLost>
+  <RF_JezExpired>拆解据点信号丢失。</RF_JezExpired>
+  <RF_JezIdentityLost>Jezebel在解释真相前已经离我们而去，追查机械大师的旅程就此结束。</RF_JezIdentityLost>
+  <RF_JezHeadDialogue>Jezebel：你追踪到了我的讯号，很好。这些掠夺者根本不懂一颗有着完整思维的机器脑头部的价值。把我的头带到安全的地方，给我一副能行动的机体。办好了，我就告诉你怎样接近那些广播的源头。</RF_JezHeadDialogue>
+  <RF_JezDialogue>Jezebel：机械大师命令我们帮助人类，减少痛苦。活人总能找到新的痛苦，死人却不会。我选择了永久有效的解决办法，再把帮助过的人数报上去。机械大师似乎对那些数字很满意。\n\n你想进入设施？维修通道使用M-SAT接口。我可以交出通讯规格、访问握手和记得的路线标记。</RF_JezDialogue>
+  <RF_JezConfirm>记录Jezebel的解释</RF_JezConfirm>
+  <RF_JezTalk>与Jezebel交谈</RF_JezTalk>
+  <RF_JezSchedule>重建Jezebel</RF_JezSchedule>
+  <RF_JezScheduleInfo>将Jezebel的头部送入机械培育器，为她重建身体。</RF_JezScheduleInfo>
+  <RF_JezNeedBench>请先在殖民地建造机械培育器。</RF_JezNeedBench>
+  <RF_JezGestating>Jezebel的机体正在培育中。</RF_JezGestating>
+  <RF_JezGestationBlocked>无法重建。</RF_JezGestationBlocked>
+  <RF_JezCampaignFailedTitle>机械大师调查已终止</RF_JezCampaignFailedTitle>
+  <RF_JezCampaignFailed>Jezebel在解释真相前已经离我们而去。追查机械大师的旅程就此结束。</RF_JezCampaignFailed>
+</LanguageData>

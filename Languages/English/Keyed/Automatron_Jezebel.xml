@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_JezDepotName>Robot salvage outpost</RF_JezDepotName>
+  <RF_JezTargets>Jezebel and the salvage outpost</RF_JezTargets>
+  <RF_JezBillExists>Jezebel's reconstruction is already scheduled.</RF_JezBillExists>
+  <RF_JezBillAdded>A bill to rebuild Jezebel has been added to the mech gestator.</RF_JezBillAdded>
+  <RF_JezCannotInteract>Requires an awake, mobile, undrafted human colonist who can reach the target.</RF_JezCannotInteract>
+  <RF_JezLocked>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_JezLocked>
+  <RF_JezSuccess>Jezebel explains how she interpreted ending lives as ending suffering, then reported the deaths to the Mechanist as successful rescues. She has handed over the facility's access data. Ada will use it to find an entrance.</RF_JezSuccess>
+  <RF_JezOfferEnded>This Automatron quest was not accepted and has expired.</RF_JezOfferEnded>
+  <RF_JezRevive>Bring Jezebel's corpse to a mech gestator to repair and reactivate her.</RF_JezRevive>
+  <RF_JezTalkStage>Speak with Jezebel after rebuilding her.</RF_JezTalkStage>
+  <RF_JezRepairStage>Bring Jezebel's head to a mech gestator and rebuild her body.</RF_JezRepairStage>
+  <RF_JezReturnStage>Bring Jezebel's head home.</RF_JezReturnStage>
+  <RF_JezAtDepot>Retrieve Jezebel's head from the salvage outpost.</RF_JezAtDepot>
+  <RF_JezArrivalRemaining>Travel to the salvage outpost and recover Jezebel's head.</RF_JezArrivalRemaining>
+  <RF_JezArrivalLimit>Travel to the salvage outpost and recover Jezebel's head.</RF_JezArrivalLimit>
+  <RF_JezReservationLost>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_JezReservationLost>
+  <RF_JezSiteFailure>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_JezSiteFailure>
+  <RF_JezHeadLost>Jezebel's head has been lost or destroyed. Without her information, the search for the Mechanist has ended.</RF_JezHeadLost>
+  <RF_JezExpired>The salvage outpost's signal has been lost.</RF_JezExpired>
+  <RF_JezIdentityLost>Jezebel is gone before she could explain the truth. The search for the Mechanist has ended.</RF_JezIdentityLost>
+  <RF_JezHeadDialogue>Jezebel: You followed my signal. Good. These scavengers have no idea what a fully functioning Robobrain head is worth. Take my head somewhere safe and give me a body that can move. Do that, and I will tell you how to approach the source of those broadcasts.</RF_JezHeadDialogue>
+  <RF_JezDialogue>Jezebel: The Mechanist ordered us to help humans and reduce suffering. Living people always find new ways to suffer. Dead people do not. I chose a permanent solution and reported how many people I had helped. The Mechanist seemed pleased with the figures.\n\nYou want to enter the facility? Its maintenance access uses M-SAT. I can provide the communications specifications, access handshake and the route markers I remember.</RF_JezDialogue>
+  <RF_JezConfirm>Record Jezebel's account</RF_JezConfirm>
+  <RF_JezTalk>Speak with Jezebel</RF_JezTalk>
+  <RF_JezSchedule>Rebuild Jezebel</RF_JezSchedule>
+  <RF_JezScheduleInfo>Bring Jezebel's head to a mech gestator to rebuild her body.</RF_JezScheduleInfo>
+  <RF_JezNeedBench>Build a mech gestator in your colony first.</RF_JezNeedBench>
+  <RF_JezGestating>Jezebel's body is gestating.</RF_JezGestating>
+  <RF_JezGestationBlocked>Cannot rebuild.</RF_JezGestationBlocked>
+  <RF_JezCampaignFailedTitle>Mechanist investigation ended</RF_JezCampaignFailedTitle>
+  <RF_JezCampaignFailed>Jezebel is gone before she could explain the truth. The search for the Mechanist has ended.</RF_JezCampaignFailed>
+</LanguageData>

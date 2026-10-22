@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>RimFallout: Automatron</name>
+  <author>第九大奇迹泯灭了</author>
+  <packageId>pressanybutton.Automatron</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+      <downloadUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>pressanybutton.MrHandy</li>
+    <li>brrainz.harmony</li>
+    <li>Orion.CashRegister</li>
+    <li>Adamas.Storefront</li>
+    <li>Orion.Gastronomy</li>
+  </loadAfter>
+  <description>RimFallout新篇章，以《辐射4：Automatron》为灵感，将废土上的机器人、核子可乐与机械大师的故事带到边缘世界。
+
+机器脑与哨兵
+
+研究并培育两种战斗机械族。机器脑以电弧武器和心灵干扰能力压制敌人；哨兵机器人则用机枪与背部集束弹提供重火力支援。
+
+饮料哥与核子可乐
+
+循着广播找回饮料哥，为殖民地添一位热情的饮品伙伴。选择你喜欢的口味，让他生产核子可乐。九种风味，各有不同的饮用效果。
+建议搭配Cash Register、Storefront与Gastronomy一起食用，还能让饮料哥参与看管店铺、售卖和餐厅服务，从柜台解放你的殖民者！
+
+机械大师事件链与特殊武器
+
+机械军团正在袭击殖民地。跟随Ada的通讯追踪线索，攻入机械大师的设施，揭开这支机器人军团背后的真相。
+在巢穴中寻找保护者凝视、特斯拉步枪与突袭者刀刃。它们既是废土的纪念品，也能成为殖民地的新武器。
+
+搭配RimFallout系列体验更佳。
+
+RimFallout continues with an expansion inspired by Fallout 4: Automatron, bringing wasteland robots, Nuka-Cola and the Mechanist&apos;s story to the rim.
+
+Robobrains and Sentry bots
+
+Research and gestate two combat mechs. Robobrains suppress enemies with arc weapons and psychic disruption, while Sentry bots provide heavy firepower with machine guns and back-mounted cluster barrages.
+
+Drinkin&apos; Buddy and Nuka-Cola
+
+Follow a broadcast to find Drinkin&apos; Buddy, an enthusiastic beverage-serving companion for your colony. Choose your favorite flavor and let him produce Nuka-Cola. Nine varieties, each with its own effects.
+Pair this mod with Cash Register, Storefront and Gastronomy to let Buddy staff shops, sell goods and serve restaurant customers—freeing your colonists from counter duty!
+
+The Mechanist campaign and special weapons
+
+The Automatron faction is raiding your colony. Follow the clues in Ada&apos;s transmissions, breach the Mechanist&apos;s facility and uncover the truth behind this robot army.
+Search the lair for Protectron&apos;s Gaze, the Tesla Rifle and the Assaultron Blade. These souvenirs of the wasteland can also become new weapons for your colony.
+
+Best enjoyed alongside the other mods in the RimFallout series.</description>
+</ModMetaData>

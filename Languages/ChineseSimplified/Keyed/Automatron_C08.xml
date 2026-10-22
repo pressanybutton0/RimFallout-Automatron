@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_CasterUnable>施放者无法行动。</RF_CasterUnable>
+  <RF_RoofedCaster>屋顶下不能发射集束弹。</RF_RoofedCaster>
+  <RF_InvalidLanding>请选择地图内12至45格、无厚岩顶的落点。</RF_InvalidLanding>
+  <RF_InvalidMesmetron>需要视野内清醒、未倒地且具有心灵敏感度的敌人。无法对倒地即死亡的目标使用。</RF_InvalidMesmetron>
+  <RF_BuddyDuplicates>发现多台饮料哥（{0}台）。请查看游戏日志，并向模组作者反馈。</RF_BuddyDuplicates>
+</LanguageData>

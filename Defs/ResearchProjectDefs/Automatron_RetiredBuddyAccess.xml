@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef Class="RimFallout.Automatron.ResearchProjectDef_RetiredBuddyAccess">
+    <defName>RimFallout_AutomatronBuddyTestAccess</defName>
+    <label>retired service robotics</label>
+    <description>Retained research record.</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+</Defs>

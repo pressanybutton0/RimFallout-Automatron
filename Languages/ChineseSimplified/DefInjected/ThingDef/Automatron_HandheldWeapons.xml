@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_ProtectronsGaze.label>保护者凝视</RimFallout_ProtectronsGaze.label>
+  <RimFallout_ProtectronsGaze.description>机械大师随身携带的激光手枪，能迅速而精准地连续射击。它的控制模块还能辅助机械师管理更多机械族。\n\n装备时，机械带宽：+3。</RimFallout_ProtectronsGaze.description>
+  <RimFallout_TeslaRifle.label>特斯拉步枪</RimFallout_TeslaRifle.label>
+  <RimFallout_TeslaRifle.description>发射高压电弧的能量步枪。电流击中目标后会向附近敌人传导，使聚集在一起的敌人暴露在同一轮放电之下。</RimFallout_TeslaRifle.description>
+  <RimFallout_AssaultronBlade.label>突袭者刀刃</RimFallout_AssaultronBlade.label>
+  <RimFallout_AssaultronBlade.description>用突袭者的机械部件制成的近战刀刃。沉重的切削刃与电击装置让它能够撕开装甲，瘫痪机械目标。</RimFallout_AssaultronBlade.description>
+  <RimFallout_ProtectronsGazeBolt.label>保护者凝视脉冲</RimFallout_ProtectronsGazeBolt.label>
+  <RimFallout_ProtectronsGaze.tools.0.label>握柄</RimFallout_ProtectronsGaze.tools.0.label>
+  <RimFallout_TeslaRifle.tools.0.label>握柄</RimFallout_TeslaRifle.tools.0.label>
+  <RimFallout_AssaultronBlade.tools.0.label>握柄</RimFallout_AssaultronBlade.tools.0.label>
+  <RimFallout_AssaultronBlade.tools.1.label>刀刃</RimFallout_AssaultronBlade.tools.1.label>
+</LanguageData>

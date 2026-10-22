@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_MechTwoRelayName>信标维护站</RF_MechTwoRelayName>
+  <RF_MechTwoTargets>信标维护站与两个终端</RF_MechTwoTargets>
+  <RF_MechTwoRecordReward>信标追踪资料</RF_MechTwoRecordReward>
+  <RF_MechTwoRecordInfo>信标识别与信号同步记录。比对两份资料，Ada就能缩小另一活动信号的搜索范围。</RF_MechTwoRecordInfo>
+  <RF_MechTwoChapterComplete>调查完成。Ada：“找到了，另一个信号还在回应。但位置变化很奇怪，设备像是被拆开后搬走了。也许它的持有者还能告诉我们些什么。”</RF_MechTwoChapterComplete>
+  <RF_MechTwoOfferExpired>机械军团任务未接受，已失效。</RF_MechTwoOfferExpired>
+  <RF_MechTwoOfferEnded>机械军团任务未接受，已失效。Ada会在找到新的线索后再次联系你。</RF_MechTwoOfferEnded>
+  <RF_MechTwoEndedFailed>未能取得完整的信标记录。Ada会继续寻找线索。</RF_MechTwoEndedFailed>
+  <RF_MechTwoAtRelay>清除守卫，读取两个终端。</RF_MechTwoAtRelay>
+  <RF_MechTwoArrivalRemaining>前往信标维护站，读取两份档案。</RF_MechTwoArrivalRemaining>
+  <RF_MechTwoArrivalLimit>前往信标维护站，读取两份档案。</RF_MechTwoArrivalLimit>
+  <RF_MechTwoReservationLost>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_MechTwoReservationLost>
+  <RF_MechTwoSiteFailure>任务发生异常，暂时无法继续。请查看游戏日志，并向模组作者反馈。</RF_MechTwoSiteFailure>
+  <RF_MechTwoArrivalExpired>你未能及时抵达信标维护站。Ada会继续寻找线索。</RF_MechTwoArrivalExpired>
+  <RF_MechTwoTerminalLost>一座尚未读取的档案终端已经遗失或毁坏，调查失败。Ada会继续寻找线索。</RF_MechTwoTerminalLost>
+  <RF_MechTwoRelayAbandoned>你在取得全部记录前离开了信标维护站，调查失败。Ada会继续寻找线索。</RF_MechTwoRelayAbandoned>
+  <RF_MechTwoTerminalClosed>无法继续读取这份档案。</RF_MechTwoTerminalClosed>
+  <RF_MechTwoDownload>读取档案记录</RF_MechTwoDownload>
+  <RF_MechTwoTerminalInspect>尚未读取。需要能够研究的殖民者。</RF_MechTwoTerminalInspect>
+  <RF_MechTwoTerminalRead>已取得这份记录。</RF_MechTwoTerminalRead>
+  <RF_MechTwoEvidenceStatus>信标识别档案：{0}\n\n信号同步档案：{1}</RF_MechTwoEvidenceStatus>
+  <RF_MechTwoRead>已读</RF_MechTwoRead>
+  <RF_MechTwoUnread>未读</RF_MechTwoUnread>
+  <RF_MechTwoRemainingExecution>下一步：读取信号同步档案。</RF_MechTwoRemainingExecution>
+  <RF_MechTwoRemainingOrders>下一步：读取信标识别档案。</RF_MechTwoRemainingOrders>
+  <RF_MechTwoOrdersText>信标识别资料：设备识别码与中继站载波具有相同的加密网络标记。登记中仍有多个发射器；识别码只能区分设备，不能直接定位发令处。需比对信号同步档案，筛出仍活动的信号。</RF_MechTwoOrdersText>
+  <RF_MechTwoExecutionText>信号同步资料：另一个关联机器脑的设备仍在周期性握手。不断变化的中继偏移表明，设备曾被拆解并搬运。结合设备识别码，可以缩小搜索区域，但尚不能得出目的地的完整坐标。</RF_MechTwoExecutionText>
+  <RF_MechTwoOrdersAcquired>已取得信标识别资料。接下来读取信号同步档案。</RF_MechTwoOrdersAcquired>
+  <RF_MechTwoExecutionAcquired>已取得信号同步资料。接下来读取信标识别档案。</RF_MechTwoExecutionAcquired>
+</LanguageData>

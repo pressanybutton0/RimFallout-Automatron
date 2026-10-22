@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <QuestScriptDef>
+    <defName>RimFallout_OneLastRound</defName>
+    <rootSelectionWeight>1</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootEarliestDay>5</rootEarliestDay>
+    <!-- Required by random-root validation; QuestNode_BuddyRescue clears the instance expiry. -->
+    <expireDaysRange>7</expireDaysRange>
+    <autoAccept>false</autoAccept>
+    <affectedByPoints>false</affectedByPoints>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;One Last Round</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-&gt;Through a broken broadcast, an enthusiastic voice is still calling to customers who left long ago: "Who wants another round?" The signal comes from an abandoned supply depot. A beverage-service robot appears to be sealed inside its maintenance pod.\n\nIf we defeat the guards and send a mechanitor to open the pod, he might be able to serve a new set of customers. The mechanitor needs 1 available bandwidth.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+          <canSelectSpace>false</canSelectSpace>
+          <selectLandmarkChance>0</selectLandmarkChance>
+        </li>
+        <li Class="RimFallout.Automatron.QuestNode_BuddyRescue" />
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <SitePartDef>
+    <defName>RimFallout_BuddyDepot</defName>
+    <label>sealed supply depot</label>
+    <description>Drinkin' Buddy is sealed inside a maintenance pod guarded by a malfunctioning Robobrain.</description>
+    <workerClass>RimFallout.Automatron.SitePartWorker_BuddyDepot</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>true</considerEnteringAsAttack>
+  </SitePartDef>
+  <WorldObjectDef ParentName="Site">
+    <defName>RimFallout_BuddyDepotSite</defName>
+    <label>abandoned supply depot</label>
+    <worldObjectClass>RimFallout.Automatron.Site_BuddyDepot</worldObjectClass>
+  </WorldObjectDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RimFallout_BuddySealedPod</defName>
+    <label>Buddy sealed maintenance pod</label>
+    <description>A maintenance pod holding Drinkin' Buddy. The service robot inside is waiting to be reactivated.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Ship/ShipCryptosleepCasket</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <size>(1,2)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>200</Mass>
+      <MarketValue>0</MarketValue>
+    </statBases>
+    <building>
+      <isEdifice>true</isEdifice>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_BuddySealedPod" />
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>RimFallout_ReleaseBuddy</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_ReleaseBuddy</driverClass>
+    <reportString>Opening the maintenance pod.</reportString>
+  </JobDef>
+</Defs>

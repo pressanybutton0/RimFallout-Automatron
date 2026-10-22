@@ -1,0 +1,18 @@
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MechGestator"]/comps</xpath>
+        <value>
+          <li Class="RimFallout.Automatron.CompProperties_JezebelGestator" />
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+        <value>
+          <li>RimFallout_ResurrectJezebel</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <QuestScriptDef>
+    <defName>RimFallout_MisguidedGoodwill</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootEarliestDay>0</rootEarliestDay>
+    <expireDaysRange>-1</expireDaysRange>
+    <autoAccept>false</autoAccept>
+    <affectedByPoints>false</affectedByPoints>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Automatron: A New Threat</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-&gt;Ada has isolated a repeating signal in the relay records. "They are not wandering aimlessly. A network is assigning their targets, and every attack is being logged as a rescue."\n\nThe lead points to a beacon maintenance station, where six hostile combat robots remain active. Its terminals hold beacon identification and synchronization records. Comparing both sets of data will let Ada trace another moving signal.\n\nAda will contact you when she finds the next lead.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+          <canSelectSpace>false</canSelectSpace>
+          <selectLandmarkChance>0</selectLandmarkChance>
+        </li>
+        <li Class="RimFallout.Automatron.QuestNode_MechanistArchives" />
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+          <parms>
+            <points>$rewardPoints</points>
+          </parms>
+        </li>
+        <li Class="QuestNode_GiveRewards">
+          <inSignal>MechanistChapterReward</inSignal>
+          <addCampLootReward>true</addCampLootReward>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <SitePartDef>
+    <defName>RimFallout_MechanistArchiveSite</defName>
+    <label>beacon maintenance station</label>
+    <description>A maintenance facility for the robot beacon network. Its terminals hold identification and synchronization archives.</description>
+    <workerClass>RimFallout.Automatron.SitePartWorker_MechanistArchive</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/AncientMechanitorComplex</expandingIconTexture>
+    <approachOrderString>Investigate {0}</approachOrderString>
+    <approachingReportString>Investigating {0}.</approachingReportString>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <minMapSize>(250, 1, 250)</minMapSize>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>false</considerEnteringAsAttack>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>RimFallout_ArchiveComplex</defName>
+    <linkWithSite>RimFallout_MechanistArchiveSite</linkWithSite>
+    <order>470</order>
+    <genStep Class="RimFallout.Automatron.GenStep_ArchiveComplex" />
+  </GenStepDef>
+  <WorldObjectDef ParentName="Site">
+    <defName>RimFallout_MechanistArchiveWorldSite</defName>
+    <label>beacon maintenance station</label>
+    <worldObjectClass>RimFallout.Automatron.Site_MechanistArchive</worldObjectClass>
+  </WorldObjectDef>
+  <ThingDef ParentName="AncientTerminalBase">
+    <defName>RimFallout_MechanistOrdersTerminal</defName>
+    <label>beacon identification archive</label>
+    <description>A terminal holding beacon device codes and encrypted network signatures. They must be compared with synchronization records to trace the signal.</description>
+    <thingClass>Building</thingClass>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>80</Mass>
+    </statBases>
+    <building>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_MechanistArchiveTerminal" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="AncientTerminalBase">
+    <defName>RimFallout_MechanistExecutionTerminal</defName>
+    <label>signal synchronization archive</label>
+    <description>A terminal holding signal synchronization records. The shifting locations seem to point to a robot that was dismantled and moved.</description>
+    <thingClass>Building</thingClass>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>80</Mass>
+    </statBases>
+    <building>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_MechanistArchiveTerminal" />
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>RimFallout_DownloadMechanistComparison</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_DownloadMechanistComparison</driverClass>
+    <reportString>Reading beacon records.</reportString>
+  </JobDef>
+</Defs>

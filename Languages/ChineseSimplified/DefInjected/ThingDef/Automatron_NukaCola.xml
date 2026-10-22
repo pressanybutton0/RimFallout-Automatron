@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_NukaOriginal.label>核子可乐</RimFallout_NukaOriginal.label>
+  <RimFallout_NukaOriginal.description>战前广受欢迎的碳酸饮料，经典的甜味和细密的气泡能让人暂时忘却烦恼，带来一阵好心情。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaOriginal.description>
+  <RimFallout_NukaCherry.label>核子可乐（樱桃）</RimFallout_NukaCherry.label>
+  <RimFallout_NukaCherry.description>在经典核子可乐中加入樱桃风味，甜味中带着鲜明的果香。饮用后令人心情愉快，还能暂时提高视觉能力，让眼前的事物更清晰。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaCherry.description>
+  <RimFallout_NukaWild.label>核子可乐（狂野）</RimFallout_NukaWild.label>
+  <RimFallout_NukaWild.description>带有根汁汽水风味的核子可乐。饮用后令人心情愉快，步伐也会变得轻快，暂时提高移动速度。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaWild.description>
+  <RimFallout_NukaOrange.label>核子可乐（橙味）</RimFallout_NukaOrange.label>
+  <RimFallout_NukaOrange.description>带有柑橘风味的核子可乐，色泽明亮，口味清爽。饮用后令人心情愉快，并暂时提高毒素抗性，但不能清除体内已经积累的毒素。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaOrange.description>
+  <RimFallout_NukaGrape.label>核子可乐（葡萄）</RimFallout_NukaGrape.label>
+  <RimFallout_NukaGrape.description>带有葡萄风味的核子可乐。除了让人心情愉快，还能减轻体内的中毒严重程度。不过，短时间内连续饮用并不能进一步去毒。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaGrape.description>
+  <RimFallout_NukaQuartz.label>核子可乐（石英）</RimFallout_NukaQuartz.label>
+  <RimFallout_NukaQuartz.description>浅色饮液泛着微光的核子可乐。饮用后令人心情愉快，双手也会暂时变得更加灵巧，提高操作能力。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaQuartz.description>
+  <RimFallout_NukaVictory.label>核子可乐（胜利）</RimFallout_NukaVictory.label>
+  <RimFallout_NukaVictory.description>色泽鲜明、散发柔和光芒的核子可乐。饮用后令人心情愉快，并在一段时间内降低承伤乘数，使身体承受的伤害略微减轻。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaVictory.description>
+  <RimFallout_NukaQuantum.label>核子可乐（量子）</RimFallout_NukaQuantum.label>
+  <RimFallout_NukaQuantum.description>散发明亮蓝光的核子可乐。喝下后令人心情愉快，脚步更轻快，双手也更灵巧，能暂时提高移动速度和操作能力。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaQuantum.description>
+  <RimFallout_NukaDark.label>核子可乐（黑暗）</RimFallout_NukaDark.label>
+  <RimFallout_NukaDark.description>将核子可乐的甜味与烈酒混合的饮料。饮用后令人心情愉快，暂时提高近战伤害并减轻痛觉，但也会降低视觉能力，让眼前的事物变得模糊。无需冷藏，长期饮用可能成瘾。</RimFallout_NukaDark.description>
+</LanguageData>

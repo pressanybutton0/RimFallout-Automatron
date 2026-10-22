@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_Mesmetron.label>迷魂脉冲</RimFallout_Mesmetron.label>
+  <RimFallout_Mesmetron.description>发射干扰脉冲，短暂降低目标的意识。需要视野内清醒、未倒地且具有心灵敏感度的敌人。\n\n冷却时间：3天。</RimFallout_Mesmetron.description>
+  <RimFallout_BackCluster.label>背部集束弹</RimFallout_BackCluster.label>
+  <RimFallout_BackCluster.description>向指定区域发射三枚集束炮弹，轰击落点附近的目标。炮弹可能偏离目标并误伤友军。必须在露天发射，无法攻击厚岩顶下的目标。\n\n冷却时间：3天。</RimFallout_BackCluster.description>
+</LanguageData>

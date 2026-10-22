@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <BackstoryDef>
+    <defName>RimFallout_IsabelChildhood</defName>
+    <slot>Childhood</slot>
+    <title>Friend of robots</title>
+    <titleShort>Robot friend</titleShort>
+    <skillGains>
+      <Crafting>4</Crafting>
+      <Intellectual>3</Intellectual>
+      <Social>-2</Social>
+    </skillGains>
+    <description>Isabel grew up shy, finding companionship in comic books and machines. Her robot Sparks became both her first creation and her closest friend.</description>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>RimFallout_IsabelAdulthood</defName>
+    <slot>Adulthood</slot>
+    <title>Armored idealist</title>
+    <titleShort>Idealist</titleShort>
+    <skillGains>
+      <Crafting>4</Crafting>
+      <Intellectual>4</Intellectual>
+      <Construction>3</Construction>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <description>Inspired by the Mechanist, Isabel built robots to protect people. She worked tirelessly inside her workshop, trusting the reports returned by her machines without seeing the harm their orders caused.</description>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+</Defs>

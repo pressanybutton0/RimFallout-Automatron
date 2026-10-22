@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Deliberately independent of MapCommonBase: some ruin scatters ignore UsedRects.
+       Reserve the facility before rocks; preserve the surrounding natural landscape. -->
+  <MapGeneratorDef>
+    <defName>RimFallout_JezebelMap</defName>
+    <genSteps>
+      <li>ElevationFertility</li>
+      <li>MutatorPostElevationFertility</li>
+      <li>RimFallout_JezebelReserve</li>
+      <li>RocksFromGrid_NoMinerals</li>
+      <li>Terrain</li>
+      <li>MutatorPostTerrain</li>
+      <li>Roads</li>
+      <li>RimFallout_JezebelReservedGround</li>
+      <li>RimFallout_JezebelFacilityLayout</li>
+      <li>FindPlayerStartSpot</li>
+      <li>Plants</li>
+      <li>Snow</li>
+      <li>Animals</li>
+      <li>Fog</li>
+    </genSteps>
+  </MapGeneratorDef>
+  <GenStepDef>
+    <defName>RimFallout_JezebelReserve</defName>
+    <order>190</order>
+    <genStep Class="RimFallout.Automatron.GenStep_JezebelReserve" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>RimFallout_JezebelReservedGround</defName>
+    <order>440</order>
+    <genStep Class="RimFallout.Automatron.GenStep_JezebelReservedGround" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>RimFallout_JezebelFacilityLayout</defName>
+    <order>450</order>
+    <genStep Class="RimFallout.Automatron.GenStep_JezebelCamp" />
+  </GenStepDef>
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_OneLastRound.questNameRules.rulesStrings>
+    <li>questName-&gt;最后一轮</li>
+  </RimFallout_OneLastRound.questNameRules.rulesStrings>
+  <RimFallout_OneLastRound.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;断续的广播中，一个热情的声音仍在招呼早已离开的客人：“还有谁想再来一轮？”信号来自一座废弃补给站。很明显，有台饮品服务机器人被封存在那里的检修舱中。\n\n如果我们愿意消灭守卫，派一名机械师打开检修舱，没准他就能继续为新的客人供应饮料。机械师需要有1点可用带宽。</li>
+  </RimFallout_OneLastRound.questDescriptionRules.rulesStrings>
+</LanguageData>

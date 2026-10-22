@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <QuestScriptDef>
+    <defName>RimFallout_RestoringOrder</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootEarliestDay>0</rootEarliestDay>
+    <expireDaysRange>-1</expireDaysRange>
+    <autoAccept>false</autoAccept>
+    <affectedByPoints>false</affectedByPoints>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Automatron: Restoring Order</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-&gt;Ada has finally decoded the access data Jezebel supplied. A remote facility is still broadcasting orders to "protect civilians," and you now know what those orders mean outside its walls. "Find the Mechanist," Ada says. "Let her hear what those rescue reports left out."\n\nThe turrets are active and mechanical guards patrol the facility. Solar panels outside supply its defenses; destroying them may make the breach easier.\n\nThe Mechanist is inside. Persuade her to hand over control, then decide whether to accept her into your colony. You can also take control after her death; merely downing or capturing her is not enough. Finally, operate the main console to shut down the network that keeps sending out robots.\n\nWar. War never changes.\n\nAfter entering the facility, abandoning the investigation or losing a critical objective will leave Ada unable to find another way to shut down the network.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_GetMap" />
+        <li Class="RimFallout.Automatron.QuestNode_MechanistMountainTile" />
+        <li Class="RimFallout.Automatron.QuestNode_MechanistFinale" />
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+          <parms>
+            <points>660</points>
+          </parms>
+        </li>
+        <li Class="QuestNode_GiveRewards">
+          <inSignal>MechanistFinaleReward</inSignal>
+          <addCampLootReward>true</addCampLootReward>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <SitePartDef>
+    <defName>RimFallout_MechanistFacility</defName>
+    <label>Mechanist facility</label>
+    <description>A hostile robot facility with a main control console.</description>
+    <workerClass>RimFallout.Automatron.SitePartWorker_MechanistFinale</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/AncientMechanitorComplex</expandingIconTexture>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>true</considerEnteringAsAttack>
+  </SitePartDef>
+  <WorldObjectDef ParentName="Site">
+    <defName>RimFallout_MechanistFinaleSite</defName>
+    <label>Mechanist facility</label>
+    <worldObjectClass>RimFallout.Automatron.Site_MechanistFinale</worldObjectClass>
+    <mapGenerator>RimFallout_MechanistMap</mapGenerator>
+  </WorldObjectDef>
+  <ThingDef ParentName="AncientTerminalBase">
+    <defName>RimFallout_FinaleMaster</defName>
+    <label>facility control console</label>
+    <description>The main console controlling the facility and its robot communications network. With authorization, you can stop the Mechanist's broadcast here.</description>
+    <thingClass>Building</thingClass>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>80</Mass>
+    </statBases>
+    <building>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_FinaleTerminal" />
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>RimFallout_UseFinaleTerminal</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_UseFinaleTerminal</driverClass>
+    <reportString>Operating the facility terminal.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>RimFallout_ConfrontIsabel</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_ConfrontIsabel</driverClass>
+    <reportString>Speaking with the Mechanist.</reportString>
+  </JobDef>
+  <PawnKindDef>
+    <defName>RimFallout_IsabelCruz</defName>
+    <label>the Mechanist</label>
+    <race>Human</race>
+    <combatPower>30</combatPower>
+    <!-- Native generation validates category filters even for our forceNoBackstory request. -->
+    <backstoryFiltersOverride>
+      <li><categories><li>Offworld</li></categories></li>
+    </backstoryFiltersOverride>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <isFighter>false</isFighter>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>20</maxGenerationAge>
+    <initialResistanceRange>12~19</initialResistanceRange>
+    <initialWillRange>1~3</initialWillRange>
+    <apparelMoney>0</apparelMoney>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <disallowedTraits>
+      <li>Nudist</li>
+    </disallowedTraits>
+    <weaponMoney>1100~1100</weaponMoney>
+    <weaponTags>
+      <li>RimFallout_IsabelSidearm</li>
+    </weaponTags>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <apparelRequired>
+      <li>Apparel_MechlordSuit</li>
+      <li>Apparel_ArmorHelmetMechlordHelmet</li>
+    </apparelRequired>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <biocodeWeaponChance>0</biocodeWeaponChance>
+  </PawnKindDef>
+</Defs>

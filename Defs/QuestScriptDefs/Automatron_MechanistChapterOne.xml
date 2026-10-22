@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <QuestScriptDef>
+    <defName>RimFallout_DistortedDistress</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootEarliestDay>0</rootEarliestDay>
+    <expireDaysRange>-1</expireDaysRange>
+    <autoAccept>false</autoAccept>
+    <affectedByPoints>false</affectedByPoints>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Automatron: Mechanical Menace</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-&gt;"They said they were here to protect us. Then they opened fire." A robot calling herself Ada contacts you for help. Her caravan was attacked by machines broadcasting promises of peace in the name of the Mechanist.\n\nAda has traced their transmissions to a nearby relay station. Four hostile combat robots guard its terminal, which may contain the attackers' beacon identification codes. She asks you to retrieve the records and discover who is directing them.\n\nClear the station's threats, then have an undrafted colonist capable of research and manipulation read the terminal. The data goes directly to Ada. Preserve the terminal: destroying it or leaving before the download is complete fails this investigation.\n\nOnce she has the records, Ada will continue her search and contact you later.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+          <canSelectSpace>false</canSelectSpace>
+          <selectLandmarkChance>0</selectLandmarkChance>
+        </li>
+        <li Class="RimFallout.Automatron.QuestNode_MechanistSignal" />
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+          <parms>
+            <points>$rewardPoints</points>
+          </parms>
+        </li>
+        <li Class="QuestNode_GiveRewards">
+          <inSignal>MechanistChapterReward</inSignal>
+          <addCampLootReward>true</addCampLootReward>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <SitePartDef>
+    <defName>RimFallout_MechanistRelay</defName>
+    <label>robot signal relay</label>
+    <description>A relay station guarded by combat robots. Its terminal may hold the attackers' communications records.</description>
+    <workerClass>RimFallout.Automatron.SitePartWorker_MechanistRelay</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>true</considerEnteringAsAttack>
+  </SitePartDef>
+  <WorldObjectDef ParentName="Site">
+    <defName>RimFallout_MechanistRelaySite</defName>
+    <label>damaged relay station</label>
+    <worldObjectClass>RimFallout.Automatron.Site_MechanistRelay</worldObjectClass>
+  </WorldObjectDef>
+  <ThingDef ParentName="AncientTerminalBase">
+    <defName>RimFallout_MechanistTerminal</defName>
+    <label>beacon relay terminal</label>
+    <description>A communications terminal holding robot beacon carrier and identification records. Ada can use them to trace the attackers.</description>
+    <thingClass>Building</thingClass>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>80</Mass>
+    </statBases>
+    <building>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_MechanistTerminal" />
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>RimFallout_DownloadMechanistRecord</defName>
+    <driverClass>RimFallout.Automatron.JobDriver_DownloadMechanistRecord</driverClass>
+    <reportString>Downloading beacon carrier data.</reportString>
+  </JobDef>
+</Defs>

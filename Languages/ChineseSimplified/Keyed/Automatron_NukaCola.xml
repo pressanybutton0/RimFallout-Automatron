@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_NukaChooseDesc>选择口味</RF_NukaChooseDesc>
+  <RF_NukaUnable>饮料哥目前无法供应饮料。请检查他的状态。</RF_NukaUnable>
+  <RF_NukaCooling>距离下次供应：{0}</RF_NukaCooling>
+  <RF_NukaNoSpace>饮料哥身边空间不足，无法放下整批饮料。</RF_NukaNoSpace>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_MechanistArchiveSite.label>信标维护站</RimFallout_MechanistArchiveSite.label>
+  <RimFallout_MechanistArchiveSite.description>机器人信标网络的维护设施。两座终端分别保存识别档案与同步记录。</RimFallout_MechanistArchiveSite.description>
+  <RimFallout_MechanistArchiveSite.approachOrderString>调查{0}</RimFallout_MechanistArchiveSite.approachOrderString>
+  <RimFallout_MechanistArchiveSite.approachingReportString>调查{0}</RimFallout_MechanistArchiveSite.approachingReportString>
+</LanguageData>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+    <defName>RimFallout_ResurrectRobobrain</defName>
+    <label>resurrect Robobrain</label>
+    <description>Resurrect a friendly Robobrain. Requires that the mechanoid's body has not been completely destroyed.</description>
+    <researchPrerequisite>RimFallout_AutomatronRobobrainEngineering</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Corpse_RimFallout_Robobrain</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_RimFallout_Robobrain</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <jobString>Resurrecting mechanoid.</jobString>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+    <defName>RimFallout_ResurrectSentryBot</defName>
+    <label>resurrect Sentry bot</label>
+    <description>Resurrect a friendly Sentry bot. Requires that the mechanoid's body has not been completely destroyed.</description>
+    <researchPrerequisite>RimFallout_AutomatronSentryEngineering</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Corpse_RimFallout_SentryBot</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_RimFallout_SentryBot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <jobString>Resurrecting mechanoid.</jobString>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+    <defName>RimFallout_ResurrectDrinkinBuddy</defName>
+    <workerClass>RimFallout.Automatron.RecipeWorker_StoryResurrection</workerClass>
+    <label>resurrect Drinkin' Buddy</label>
+    <description>Resurrect the friendly Drinkin' Buddy. Requires that his body has not been completely destroyed.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Corpse_RimFallout_DrinkinBuddy</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_RimFallout_DrinkinBuddy</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <jobString>Resurrecting mechanoid.</jobString>
+  </RecipeDef>
+</Defs>

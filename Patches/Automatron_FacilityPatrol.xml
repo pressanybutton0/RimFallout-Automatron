@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThinkTreeDef[defName="MechConstant"]/thinkRoot[@Class="ThinkNode_Priority" or @Class="Verse.AI.ThinkNode_Priority"]</xpath>
+    <match Class="PatchOperationAttributeSet">
+      <xpath>Defs/ThinkTreeDef[defName="MechConstant"]/thinkRoot</xpath>
+      <attribute>Class</attribute>
+      <value>RimFallout.Automatron.ThinkNode_FacilityPatrolConstant</value>
+    </match>
+  </Operation>
+</Patch>

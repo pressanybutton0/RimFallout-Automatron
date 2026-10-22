@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_Robobrain.tools.head.label>头部</RimFallout_Robobrain.tools.head.label>
+  <RimFallout_Robobrain.label>机器脑</RimFallout_Robobrain.label>
+  <RimFallout_Robobrain.description>以活体大脑作为处理核心的多用途机器人，由通用原子与美国军方联合研发，并得到罗伯科的技术支持。它能够执行复杂指令，履带底盘让它适应多种地形。装甲外壳保护着脆弱的脑罐，而其中残留的思维未必总能服从程序。</RimFallout_Robobrain.description>
+  <RimFallout_SentryBot.tools.head.label>头部</RimFallout_SentryBot.tools.head.label>
+  <RimFallout_SentryBot.label>哨兵机器人</RimFallout_SentryBot.label>
+  <RimFallout_SentryBot.description>战前投入使用的重型军用机器人，代表了当时机器人武器工程的顶尖水平。厚重的铸造装甲包裹着主要系统，三条带轮支腿为庞大的机体提供稳定支撑。双臂能够搭载转管机枪或导弹发射器，背部还设有集束榴弹发射器的挂点。它并非单纯的守卫机器，而是一座为正面战场打造的移动火力平台。</RimFallout_SentryBot.description>
+  <RimFallout_DrinkinBuddy.tools.head.label>头部</RimFallout_DrinkinBuddy.tools.head.label>
+  <RimFallout_DrinkinBuddy.label>保护者</RimFallout_DrinkinBuddy.label>
+  <RimFallout_DrinkinBuddy.description>一台经过改装的保护者机器人，原本为酒馆酿造和供应饮品。即使客人早已离去，他仍热衷于招呼下一轮。如今，他装满了各种口味的核子可乐，也能在店铺和餐馆里帮忙招待客人。</RimFallout_DrinkinBuddy.description>
+</LanguageData>

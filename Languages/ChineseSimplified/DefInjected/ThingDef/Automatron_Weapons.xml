@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_RobobrainIntegratedGun.label>内置特斯拉发射器</RimFallout_RobobrainIntegratedGun.label>
+  <RimFallout_RobobrainIntegratedGun.description>安装在机器脑机械臂上的电弧发射器。击中敌人后，电流会向附近目标传导，逐渐减弱。</RimFallout_RobobrainIntegratedGun.description>
+  <RimFallout_SentryBotIntegratedGun.label>内置转管机枪</RimFallout_SentryBotIntegratedGun.label>
+  <RimFallout_SentryBotIntegratedGun.description>安装在哨兵机器人机械臂上的转管机枪。高速旋转的枪管能够倾泻密集弹雨，持续压制敌人。</RimFallout_SentryBotIntegratedGun.description>
+  <RimFallout_TeslaBolt.label>特斯拉能量弹</RimFallout_TeslaBolt.label>
+</LanguageData>

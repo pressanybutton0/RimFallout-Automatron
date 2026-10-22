@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_BuddyTargets>Rescue target</RF_BuddyTargets>
+  <RF_BuddyRewardLabel>Drinkin' Buddy</RF_BuddyRewardLabel>
+  <RF_BuddyRewardInfo>A service robot that supplies drinks. Rescue Drinkin' Buddy from the depot and bring him home.</RF_BuddyRewardInfo>
+  <RF_BuddyLost>Drinkin' Buddy did not return home with the rescue party. The rescue has failed.</RF_BuddyLost>
+  <RF_BuddyEndedFailed>You did not bring Drinkin' Buddy home. The rescue has failed.</RF_BuddyEndedFailed>
+  <RF_BuddyOfferExpired>The depot's broadcast has stopped. You missed this rescue opportunity.</RF_BuddyOfferExpired>
+  <RF_BuddyEnded>This rescue has ended.</RF_BuddyEnded>
+  <RF_BuddyDepotAbandoned>The rescue party left the depot while Drinkin' Buddy was still sealed inside his pod. The rescue has failed.</RF_BuddyDepotAbandoned>
+  <RF_BuddyDepotName>Abandoned supply depot</RF_BuddyDepotName>
+  <RF_BuddyReturn>Bring Drinkin' Buddy home.</RF_BuddyReturn>
+  <RF_BuddyAtDepot>The rescue party has reached the depot. Defeat the guards and have a mechanitor open the pod.</RF_BuddyAtDepot>
+  <RF_BuddyArrivalLimit>Travel to the depot with a mechanitor who has 1 available bandwidth.</RF_BuddyArrivalLimit>
+  <RF_BuddyArrivalRemaining>Travel to the depot with a mechanitor who has 1 available bandwidth.</RF_BuddyArrivalRemaining>
+  <RF_BuddyReservationLost>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_BuddyReservationLost>
+  <RF_BuddySiteFailure>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_BuddySiteFailure>
+  <RF_BuddyDied>Drinkin' Buddy did not make it home safely. The rescue has failed.</RF_BuddyDied>
+  <RF_BuddyRescueSuccess>Drinkin' Buddy has arrived home. Quest complete.</RF_BuddyRescueSuccess>
+  <RF_BuddyGenerationFailure>The quest encountered a problem and cannot continue. Please check the game log and report this to the mod author.</RF_BuddyGenerationFailure>
+  <RF_BuddySignalExpired>The rescue party did not arrive in time. The depot's signal has stopped.</RF_BuddySignalExpired>
+  <RF_BuddyQuestClosed>This rescue quest has ended.</RF_BuddyQuestClosed>
+  <RF_BuddyNeedMechanitor>Requires an awake mechanitor who is not downed.</RF_BuddyNeedMechanitor>
+  <RF_BuddyAlreadyConnected>Drinkin' Buddy is connected. Bring him home.</RF_BuddyAlreadyConnected>
+  <RF_BuddyNeedBandwidth>Requires 1 available bandwidth.</RF_BuddyNeedBandwidth>
+  <RF_BuddyUnreachable>No available path.</RF_BuddyUnreachable>
+  <RF_BuddyGuardAlive>Defeat the depot's guards first.</RF_BuddyGuardAlive>
+  <RF_BuddyUnavailable>Drinkin' Buddy must be alive, standing and inside the depot.</RF_BuddyUnavailable>
+  <RF_BuddyReconnect>Reconnect Drinkin' Buddy</RF_BuddyReconnect>
+  <RF_BuddyRelease>Release Drinkin' Buddy</RF_BuddyRelease>
+  <RF_BuddyPodInspect>Drinkin' Buddy is still inside the pod. A mechanitor can open it after the guards are defeated.</RF_BuddyPodInspect>
+  <RF_BuddyPodDestroyed>The pod was destroyed before Drinkin' Buddy was rescued. The rescue has failed.</RF_BuddyPodDestroyed>
+  <RF_BuddyConnectFailed>Could not connect Drinkin' Buddy. Check the mechanitor's condition and available bandwidth. If the problem persists, check the game log and report it to the mod author.</RF_BuddyConnectFailed>
+  <RF_BuddyReleased>Drinkin' Buddy is awake and connected. Add him to your caravan and bring him home.</RF_BuddyReleased>
+  <RF_BuddyPersonalName>Drinkin’ Buddy</RF_BuddyPersonalName>
+</LanguageData>

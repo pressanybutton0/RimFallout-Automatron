@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RimFallout_GestateJezebel.label>重建Jezebel</RimFallout_GestateJezebel.label>
+  <RimFallout_GestateJezebel.description>为Jezebel的头部重建身体。</RimFallout_GestateJezebel.description>
+  <RimFallout_ResurrectJezebel.label>复活Jezebel</RimFallout_ResurrectJezebel.label>
+  <RimFallout_ResurrectJezebel.description>复活友方的Jezebel。前提是她的身体未被完全摧毁。</RimFallout_ResurrectJezebel.description>
+</LanguageData>

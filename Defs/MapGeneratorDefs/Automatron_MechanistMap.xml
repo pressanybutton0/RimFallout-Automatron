@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Deliberately independent of MapCommonBase: some ruin scatters ignore UsedRects.
+       Reserve the facility before rocks; preserve the surrounding natural landscape. -->
+  <MapGeneratorDef>
+    <defName>RimFallout_MechanistMap</defName>
+    <genSteps>
+      <li>ElevationFertility</li>
+      <li>MutatorPostElevationFertility</li>
+      <li>RimFallout_MechanistReserve</li>
+      <li>RocksFromGrid_NoMinerals</li>
+      <li>Terrain</li>
+      <li>MutatorPostTerrain</li>
+      <li>Roads</li>
+      <li>RimFallout_MechanistReservedGround</li>
+      <li>RimFallout_MechanistFacilityLayout</li>
+      <li>FindPlayerStartSpot</li>
+      <li>Plants</li>
+      <li>Snow</li>
+      <li>Animals</li>
+      <li>Fog</li>
+    </genSteps>
+  </MapGeneratorDef>
+  <GenStepDef>
+    <defName>RimFallout_MechanistReserve</defName>
+    <order>190</order>
+    <genStep Class="RimFallout.Automatron.GenStep_MechanistReserve" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>RimFallout_MechanistReservedGround</defName>
+    <order>440</order>
+    <genStep Class="RimFallout.Automatron.GenStep_MechanistReservedGround" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>RimFallout_MechanistFacilityLayout</defName>
+    <order>450</order>
+    <genStep Class="RimFallout.Automatron.GenStep_MechanistFacility" />
+  </GenStepDef>
+</Defs>

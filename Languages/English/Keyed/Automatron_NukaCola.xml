@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RF_NukaChooseDesc>Choose flavor</RF_NukaChooseDesc>
+  <RF_NukaUnable>Drinkin' Buddy cannot supply drinks right now. Check his condition.</RF_NukaUnable>
+  <RF_NukaCooling>Next batch available in: {0}</RF_NukaCooling>
+  <RF_NukaNoSpace>There is not enough space near Drinkin' Buddy for the drinks.</RF_NukaNoSpace>
+</LanguageData>

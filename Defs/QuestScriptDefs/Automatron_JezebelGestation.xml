@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="RimFallout_AutomatronPrototype">
+    <defName>RimFallout_Jezebel</defName>
+    <label>Jezebel</label>
+    <description>Jezebel, a Robobrain with a newly rebuilt body. Her opinion of humans is unkind, and her interpretation of "helping people" is deeply troubling. At least she remembers the way to the Mechanist's facility.</description>
+    <statBases>
+      <MoveSpeed>2.8</MoveSpeed>
+      <BandwidthCost>1</BandwidthCost>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <MarketValue>1400</MarketValue>
+      <MechEnergyLossPerHP>0.5</MechEnergyLossPerHP>
+    </statBases>
+    <race>
+      <body>RimFallout_RobobrainBody</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.0</baseHealthScale>
+      <renderTree>RimFallout_AutomatronIntegrated</renderTree>
+    </race>
+    <comps>
+      <li Class="RimFallout.Automatron.CompProperties_CombatController" />
+      <li Class="RimFallout.Automatron.CompProperties_JezebelInteraction" />
+    </comps>
+    <butcherProducts Inherit="False">
+      <Steel>20</Steel>
+      <Plasteel>5</Plasteel>
+    </butcherProducts>
+  </ThingDef>
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>RimFallout_Jezebel</defName>
+    <label>Jezebel</label>
+    <race>RimFallout_Jezebel</race>
+    <combatPower>180</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags Inherit="False">
+      <li>RimFallout_RobobrainIntegratedGun</li>
+    </weaponTags>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Automatron/Robobrain/Robobrain</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.6</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <defaultFactionDef>RimFallout_MechanistIsabel</defaultFactionDef>
+  </PawnKindDef>
+  <RecipeDef ParentName="BaseMechanoidRecipe">
+    <defName>RimFallout_GestateJezebel</defName>
+    <label>rebuild Jezebel</label>
+    <description>Rebuild a body for Jezebel's head.</description>
+    <gestationCycles>2</gestationCycles>
+    <formingTicks>120000</formingTicks>
+    <workAmount>1800</workAmount>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RimFallout_JezebelHead</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <RimFallout_Jezebel>1</RimFallout_Jezebel>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+        <li>SubcoreBasic</li>
+        <li>RimFallout_JezebelHead</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+        <li>SubcoreBasic</li>
+        <li>RimFallout_JezebelHead</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+    <defName>RimFallout_ResurrectJezebel</defName>
+    <workerClass>RimFallout.Automatron.RecipeWorker_StoryResurrection</workerClass>
+    <label>resurrect Jezebel</label>
+    <description>Resurrect the friendly Jezebel. Requires that her body has not been completely destroyed.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Corpse_RimFallout_Jezebel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_RimFallout_Jezebel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>
